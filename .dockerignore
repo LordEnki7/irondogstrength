@@ -1,0 +1,8 @@
+node_modules
+dist
+.git
+*.zip
+*.tar.gz
+temp_large_assets/
+client/public/videos/
+.DS_Store
