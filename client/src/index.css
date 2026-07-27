@@ -1,0 +1,274 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(220, 100%, 97%);
+  --foreground: hsl(213, 60%, 25%);
+  --muted: hsl(220, 95%, 92%);
+  --muted-foreground: hsl(215, 20%, 45%);
+  --popover: hsl(220, 100%, 97%);
+  --popover-foreground: hsl(213, 60%, 25%);
+  --card: hsl(220, 95%, 94%);
+  --card-foreground: hsl(213, 60%, 25%);
+  --border: hsl(219, 90%, 85%);
+  --input: hsl(219, 90%, 88%);
+  --primary: hsl(217, 91%, 60%);
+  --primary-foreground: hsl(210, 40%, 98%);
+  --secondary: hsl(220, 95%, 90%);
+  --secondary-foreground: hsl(213, 60%, 25%);
+  --accent: hsl(220, 95%, 90%);
+  --accent-foreground: hsl(213, 60%, 25%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(210, 40%, 98%);
+  --ring: hsl(217, 91%, 60%);
+  --radius: 0.5rem;
+  
+  /* Iron Dog specific colors - Cooler deeper blues */
+  --iron-blue-50: hsl(220, 100%, 97%);
+  --iron-blue-100: hsl(220, 95%, 92%);
+  --iron-blue-200: hsl(219, 90%, 85%);
+  --iron-blue-300: hsl(218, 85%, 75%);
+  --iron-blue-400: hsl(217, 80%, 65%);
+  --iron-blue-500: hsl(216, 75%, 55%);
+  --iron-blue-600: hsl(215, 70%, 45%);
+  --iron-blue-700: hsl(214, 65%, 38%);
+  --iron-blue-800: hsl(213, 60%, 32%);
+  --iron-blue-900: hsl(212, 55%, 26%);
+  
+  /* SBS Yellow color */
+  --sbs-yellow: #5895b9;
+  --sbs-yellow-light: #6ba5c8;
+  --sbs-yellow-dark: #4a7fa0;
+  
+  /* Light Gold colors */
+  --light-gold: #f9e79f;
+  --light-gold-light: #fdf2c4;
+  --light-gold-dark: #f4d03f;
+  
+  /* Egyptian Orange/Red colors */
+  --egyptian-orange: #d2691e;
+  --egyptian-orange-light: #f4a460;
+  --egyptian-red: #cd853f;
+  --egyptian-terracotta: #e67e22;
+}
+
+.dark {
+  --background: hsl(222, 84%, 5%);
+  --foreground: hsl(210, 40%, 98%);
+  --muted: hsl(217, 32%, 17%);
+  --muted-foreground: hsl(215, 20%, 65%);
+  --popover: hsl(222, 84%, 5%);
+  --popover-foreground: hsl(210, 40%, 98%);
+  --card: hsl(222, 84%, 5%);
+  --card-foreground: hsl(210, 40%, 98%);
+  --border: hsl(217, 32%, 17%);
+  --input: hsl(217, 32%, 17%);
+  --primary: hsl(207, 90%, 54%);
+  --primary-foreground: hsl(210, 40%, 98%);
+  --secondary: hsl(217, 32%, 17%);
+  --secondary-foreground: hsl(210, 40%, 98%);
+  --accent: hsl(217, 32%, 17%);
+  --accent-foreground: hsl(210, 40%, 98%);
+  --destructive: hsl(0, 62%, 30%);
+  --destructive-foreground: hsl(210, 40%, 98%);
+  --ring: hsl(207, 90%, 54%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+/* Custom Iron Dog styles */
+.iron-blue-gradient {
+  background: linear-gradient(135deg, hsl(var(--iron-blue-600)), hsl(var(--iron-blue-500)));
+}
+
+.strength-pattern {
+  background-image: 
+    radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.1) 0%, transparent 50%);
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.ice-blue-glass {
+  background: linear-gradient(135deg, 
+    rgba(219, 234, 254, 0.95) 0%, 
+    rgba(147, 197, 253, 0.9) 25%,
+    rgba(191, 219, 254, 0.92) 50%,
+    rgba(165, 210, 255, 0.94) 75%,
+    rgba(186, 230, 253, 0.96) 100%);
+  backdrop-filter: blur(12px) saturate(1.2);
+  border: 1px solid rgba(147, 197, 253, 0.3);
+  box-shadow: 
+    inset 0 1px 0 rgba(255, 255, 255, 0.7),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.05),
+    0 8px 32px rgba(59, 130, 246, 0.15),
+    0 4px 16px rgba(147, 197, 253, 0.1);
+}
+
+.neon-glow {
+  box-shadow: 
+    0 0 20px hsl(var(--iron-blue-500)),
+    0 0 40px hsl(var(--iron-blue-400)),
+    0 0 80px hsl(var(--iron-blue-300));
+}
+
+.text-glow {
+  text-shadow: 
+    0 0 10px hsl(var(--iron-blue-400)),
+    0 0 20px hsl(var(--iron-blue-500)),
+    0 0 40px hsl(var(--iron-blue-600));
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, 
+    hsl(222, 84%, 4%) 0%, 
+    hsl(224, 70%, 8%) 20%,
+    hsl(217, 91%, 15%) 40%,
+    hsl(217, 91%, 25%) 70%,
+    hsl(217, 91%, 40%) 100%);
+}
+
+.text-iron-blue-400 {
+  color: hsl(var(--iron-blue-400));
+}
+
+.text-iron-blue-500 {
+  color: hsl(var(--iron-blue-500));
+}
+
+.text-iron-blue-600 {
+  color: hsl(var(--iron-blue-600));
+}
+
+.bg-iron-blue-50 {
+  background-color: hsl(var(--iron-blue-50));
+}
+
+.bg-iron-blue-100 {
+  background-color: hsl(var(--iron-blue-100));
+}
+
+.bg-iron-blue-500 {
+  background-color: hsl(var(--iron-blue-500));
+}
+
+.bg-iron-blue-600 {
+  background-color: hsl(var(--iron-blue-600));
+}
+
+.bg-iron-blue-700 {
+  background-color: hsl(var(--iron-blue-700));
+}
+
+.border-iron-blue-200 {
+  border-color: hsl(var(--iron-blue-200));
+}
+
+.border-iron-blue-300 {
+  border-color: hsl(var(--iron-blue-300));
+}
+
+.hover\:bg-iron-blue-50:hover {
+  background-color: hsl(var(--iron-blue-50));
+}
+
+.hover\:bg-iron-blue-100:hover {
+  background-color: hsl(var(--iron-blue-100));
+}
+
+.hover\:bg-iron-blue-700:hover {
+  background-color: hsl(var(--iron-blue-700));
+}
+
+.hover\:text-iron-blue-600:hover {
+  color: hsl(var(--iron-blue-600));
+}
+
+.hover\:border-iron-blue-300:hover {
+  border-color: hsl(var(--iron-blue-300));
+}
+
+.focus\:border-iron-blue-500:focus {
+  border-color: hsl(var(--iron-blue-500));
+}
+
+/* Loading animations */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+/* Signature pad styling */
+.signature-pad {
+  border: 2px dashed hsl(var(--border));
+  border-radius: 0.5rem;
+  background-color: hsl(var(--background));
+}
+
+.signature-pad:hover {
+  border-color: hsl(var(--iron-blue-300));
+}
+
+/* Calendar styling */
+.calendar-day {
+  @apply w-10 h-10 rounded-lg flex items-center justify-center text-sm font-medium transition-colors;
+}
+
+.calendar-day:hover {
+  @apply bg-iron-blue-50 text-iron-blue-600;
+}
+
+.calendar-day.selected {
+  @apply bg-iron-blue-500 text-white;
+}
+
+.calendar-day.disabled {
+  @apply text-muted-foreground cursor-not-allowed;
+}
+
+.calendar-day.today {
+  @apply bg-accent text-accent-foreground;
+}
+
+/* Time slot styling */
+.time-slot {
+  @apply px-4 py-3 rounded-lg border-2 border-iron-blue-300 text-iron-blue-800 bg-white/90 hover:bg-iron-blue-500 hover:text-white hover:border-iron-blue-600 transition-all duration-200 font-medium cursor-pointer shadow-sm hover:shadow-md min-w-[100px] text-center;
+  pointer-events: auto !important;
+  z-index: 10;
+  position: relative;
+}
+
+.time-slot.selected {
+  @apply bg-iron-blue-800 text-white border-iron-blue-900 shadow-lg;
+}
+
+.time-slot.selected:hover {
+  @apply bg-iron-blue-900 text-white border-iron-blue-900;
+}
+
+.time-slot:hover:not(.selected) {
+  @apply bg-iron-blue-500 text-white border-iron-blue-600 scale-105;
+}
+
+.time-slot.disabled {
+  @apply bg-muted text-muted-foreground cursor-not-allowed border-muted;
+}

@@ -1,0 +1,11 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#1f2937"/>
+  <circle cx="200" cy="150" r="40" fill="#6b7280"/>
+  <path d="M185 135 L215 150 L185 165 V135Z" fill="#ffffff"/>
+  <text x="200" y="200" text-anchor="middle" fill="#9ca3af" font-family="Arial" font-size="14">
+    Video Content
+  </text>
+  <text x="200" y="220" text-anchor="middle" fill="#6b7280" font-family="Arial" font-size="12">
+    Available in Full Version
+  </text>
+</svg>

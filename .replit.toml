@@ -1,0 +1,24 @@
+# Replit deployment configuration
+[deployment]
+deploymentType = "static"
+buildCommand = "npm run build"
+outputDirectory = "dist/public"
+
+[deployment.env]
+NODE_ENV = "production"
+
+# Exclude large files from deployment
+[deployment.ignore]
+patterns = [
+  "*.mp4",
+  "*.mov", 
+  "*.avi",
+  "*.webm",
+  "*.pdf",
+  "*.docx",
+  "attached_assets/**",
+  "temp_large_assets/**",
+  "node_modules/**",
+  "*.tar.gz",
+  "*.zip"
+]
