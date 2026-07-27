@@ -15,6 +15,8 @@ FROM node:20-alpine AS runner
 WORKDIR /app
 
 ENV NODE_ENV=production
+# Required at runtime — set these in Dokploy environment variables:
+# DATABASE_URL, SESSION_SECRET, CLOUDFARE_ACCESS_KEY_ID, CLOUDFARE_SECRET_ACCESS_KEY
 
 # Copy built assets and server
 COPY --from=builder /app/dist ./dist

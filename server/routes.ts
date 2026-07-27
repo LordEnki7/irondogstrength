@@ -5,6 +5,7 @@ import { storage } from "./storage";
 import fs from "fs";
 import path from "path";
 import multer from "multer";
+import { uploadToR2, deleteFromR2, streamFromR2, listR2Files } from "./r2";
 import { 
   insertClientSchema, 
   insertAppointmentSchema, 
@@ -716,29 +717,14 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
-  // Configure multer for image uploads
-  const uploadDir = path.join(process.cwd(), 'client/public/uploads');
-  if (!fs.existsSync(uploadDir)) {
-    fs.mkdirSync(uploadDir, { recursive: true });
-  }
-
-  const storage_multer = multer.diskStorage({
-    destination: (req, file, cb) => {
-      cb(null, uploadDir);
-    },
-    filename: (req, file, cb) => {
-      const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9);
-      cb(null, file.fieldname + '-' + uniqueSuffix + path.extname(file.originalname));
-    }
-  });
-
-  const upload = multer({ 
-    storage: storage_multer,
+  // Configure multer to use memory storage (files go to R2, not local disk)
+  const upload = multer({
+    storage: multer.memoryStorage(),
     limits: {
       fileSize: 10 * 1024 * 1024, // 10MB limit
     },
     fileFilter: (req, file, cb) => {
-      console.log("File upload attempt:", file.originalname, file.mimetype, file.size);
+      console.log("File upload attempt:", file.originalname, file.mimetype);
       if (file.mimetype.startsWith('image/')) {
         cb(null, true);
       } else {
@@ -748,19 +734,23 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
+  // Proxy route: serve R2 files via /uploads/:key
+  app.get("/uploads/:key", async (req, res) => {
+    try {
+      const { body, contentType } = await streamFromR2(req.params.key);
+      res.setHeader("Content-Type", contentType);
+      res.setHeader("Cache-Control", "public, max-age=31536000");
+      body.pipe(res);
+    } catch (error) {
+      res.status(404).json({ message: "File not found" });
+    }
+  });
+
   // Image management routes
   app.get("/api/admin/images", async (req, res) => {
     try {
-      const uploadsPath = path.join(process.cwd(), 'client/public/uploads');
-      if (!fs.existsSync(uploadsPath)) {
-        return res.json([]);
-      }
-      
-      const files = fs.readdirSync(uploadsPath);
-      const imageFiles = files
-        .filter(file => /\.(jpg|jpeg|png|gif|webp)$/i.test(file))
-        .map(file => `/uploads/${file}`);
-      
+      const keys = await listR2Files();
+      const imageFiles = keys.map(key => `/uploads/${key}`);
       res.json(imageFiles);
     } catch (error) {
       res.status(500).json({ message: "Error fetching images", error });
@@ -772,11 +762,18 @@ export async function registerRoutes(app: Express): Promise<Server> {
       if (!req.files || req.files.length === 0) {
         return res.status(400).json({ message: "No files uploaded" });
       }
-      
-      const uploadedFiles = (req.files as Express.Multer.File[]).map(file => `/uploads/${file.filename}`);
-      res.json({ 
-        message: "Images uploaded successfully", 
-        files: uploadedFiles 
+
+      const uploadedFiles = await Promise.all(
+        (req.files as Express.Multer.File[]).map(async (file) => {
+          const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9);
+          const key = `${file.fieldname}-${uniqueSuffix}${path.extname(file.originalname)}`;
+          return uploadToR2(key, file.buffer, file.mimetype);
+        })
+      );
+
+      res.json({
+        message: "Images uploaded successfully",
+        files: uploadedFiles
       });
     } catch (error) {
       res.status(500).json({ message: "Error uploading images", error });
@@ -834,33 +831,27 @@ export async function registerRoutes(app: Express): Promise<Server> {
     try {
       const { oldPath } = req.body;
       const newFile = req.file;
-      
-      console.log("Replace image request:", { oldPath, newFile: newFile?.filename });
-      
+
       if (!newFile || !oldPath) {
-        console.log("Missing data:", { hasNewFile: !!newFile, hasOldPath: !!oldPath });
         return res.status(400).json({ message: "Missing required data" });
       }
-      
-      // Delete old file
-      const oldFilePath = path.join(process.cwd(), 'client/public', oldPath);
-      console.log("Attempting to delete old file:", oldFilePath);
-      
-      if (fs.existsSync(oldFilePath)) {
-        fs.unlinkSync(oldFilePath);
-        console.log("Old file deleted successfully");
-      } else {
-        console.log("Old file not found, skipping deletion");
+
+      // Delete old file from R2 if it was an /uploads/ path
+      const oldKey = oldPath.replace(/^\/uploads\//, "");
+      if (oldPath.startsWith("/uploads/")) {
+        try {
+          await deleteFromR2(oldKey);
+        } catch {
+          console.log("Old R2 file not found, skipping deletion");
+        }
       }
-      
-      const newPath = `/uploads/${newFile.filename}`;
-      console.log("Image replaced successfully:", { oldPath, newPath });
-      
-      res.json({ 
-        message: "Image replaced successfully", 
-        newPath: newPath,
-        oldPath: oldPath
-      });
+
+      // Upload new file to R2
+      const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9);
+      const key = `newImage-${uniqueSuffix}${path.extname(newFile.originalname)}`;
+      const newPath = await uploadToR2(key, newFile.buffer, newFile.mimetype);
+
+      res.json({ message: "Image replaced successfully", newPath, oldPath });
     } catch (error) {
       console.error("Error replacing image:", error);
       res.status(500).json({ message: "Error replacing image", error: error instanceof Error ? error.message : "Unknown error" });
@@ -870,18 +861,14 @@ export async function registerRoutes(app: Express): Promise<Server> {
   app.delete("/api/admin/images", async (req, res) => {
     try {
       const { imagePath } = req.body;
-      
+
       if (!imagePath) {
         return res.status(400).json({ message: "Image path required" });
       }
-      
-      const filePath = path.join(process.cwd(), 'client/public', imagePath);
-      if (fs.existsSync(filePath)) {
-        fs.unlinkSync(filePath);
-        res.json({ message: "Image deleted successfully" });
-      } else {
-        res.status(404).json({ message: "Image not found" });
-      }
+
+      const key = imagePath.replace(/^\/uploads\//, "");
+      await deleteFromR2(key);
+      res.json({ message: "Image deleted successfully" });
     } catch (error) {
       res.status(500).json({ message: "Error deleting image", error });
     }
