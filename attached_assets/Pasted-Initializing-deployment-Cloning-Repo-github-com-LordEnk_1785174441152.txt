@@ -1,0 +1,943 @@
+Initializing deployment
+Cloning Repo github.com/LordEnki7/irondogstrength.git to /etc/dokploy/applications/iron-dog-strength-irondogapp-1n02ro/code: ✅
+Cloning into '/etc/dokploy/applications/iron-dog-strength-irondogapp-1n02ro/code'...
+remote: Enumerating objects: 166, done.
+remote: Counting objects:   0% (1/166)        
+remote: Counting objects:   1% (2/166)        
+remote: Counting objects:   2% (4/166)        
+remote: Counting objects:   3% (5/166)        
+remote: Counting objects:   4% (7/166)        
+remote: Counting objects:   5% (9/166)        
+remote: Counting objects:   6% (10/166)        
+remote: Counting objects:   7% (12/166)        
+remote: Counting objects:   8% (14/166)        
+remote: Counting objects:   9% (15/166)        
+remote: Counting objects:  10% (17/166)        
+remote: Counting objects:  11% (19/166)        
+remote: Counting objects:  12% (20/166)        
+remote: Counting objects:  13% (22/166)        
+remote: Counting objects:  14% (24/166)        
+remote: Counting objects:  15% (25/166)        
+remote: Counting objects:  16% (27/166)        
+remote: Counting objects:  17% (29/166)        
+remote: Counting objects:  18% (30/166)        
+remote: Counting objects:  19% (32/166)        
+remote: Counting objects:  20% (34/166)        
+remote: Counting objects:  21% (35/166)        
+remote: Counting objects:  22% (37/166)        
+remote: Counting objects:  23% (39/166)        
+remote: Counting objects:  24% (40/166)        
+remote: Counting objects:  25% (42/166)        
+remote: Counting objects:  26% (44/166)        
+remote: Counting objects:  27% (45/166)        
+remote: Counting objects:  28% (47/166)        
+remote: Counting objects:  29% (49/166)        
+remote: Counting objects:  30% (50/166)        
+remote: Counting objects:  31% (52/166)        
+remote: Counting objects:  32% (54/166)        
+remote: Counting objects:  33% (55/166)        
+remote: Counting objects:  34% (57/166)        
+remote: Counting objects:  35% (59/166)        
+remote: Counting objects:  36% (60/166)        
+remote: Counting objects:  37% (62/166)        
+remote: Counting objects:  38% (64/166)        
+remote: Counting objects:  39% (65/166)        
+remote: Counting objects:  40% (67/166)        
+remote: Counting objects:  41% (69/166)        
+remote: Counting objects:  42% (70/166)        
+remote: Counting objects:  43% (72/166)        
+remote: Counting objects:  44% (74/166)        
+remote: Counting objects:  45% (75/166)        
+remote: Counting objects:  46% (77/166)        
+remote: Counting objects:  47% (79/166)        
+remote: Counting objects:  48% (80/166)        
+remote: Counting objects:  49% (82/166)        
+remote: Counting objects:  50% (83/166)        
+remote: Counting objects:  51% (85/166)        
+remote: Counting objects:  52% (87/166)        
+remote: Counting objects:  53% (88/166)        
+remote: Counting objects:  54% (90/166)        
+remote: Counting objects:  55% (92/166)        
+remote: Counting objects:  56% (93/166)        
+remote: Counting objects:  57% (95/166)        
+remote: Counting objects:  58% (97/166)        
+remote: Counting objects:  59% (98/166)        
+remote: Counting objects:  60% (100/166)        
+remote: Counting objects:  61% (102/166)        
+remote: Counting objects:  62% (103/166)        
+remote: Counting objects:  63% (105/166)        
+remote: Counting objects:  64% (107/166)        
+remote: Counting objects:  65% (108/166)        
+remote: Counting objects:  66% (110/166)        
+remote: Counting objects:  67% (112/166)        
+remote: Counting objects:  68% (113/166)        
+remote: Counting objects:  69% (115/166)        
+remote: Counting objects:  70% (117/166)        
+remote: Counting objects:  71% (118/166)        
+remote: Counting objects:  72% (120/166)        
+remote: Counting objects:  73% (122/166)        
+remote: Counting objects:  74% (123/166)        
+remote: Counting objects:  75% (125/166)        
+remote: Counting objects:  76% (127/166)        
+remote: Counting objects:  77% (128/166)        
+remote: Counting objects:  78% (130/166)        
+remote: Counting objects:  79% (132/166)        
+remote: Counting objects:  80% (133/166)        
+remote: Counting objects:  81% (135/166)        
+remote: Counting objects:  82% (137/166)        
+remote: Counting objects:  83% (138/166)        
+remote: Counting objects:  84% (140/166)        
+remote: Counting objects:  85% (142/166)        
+remote: Counting objects:  86% (143/166)        
+remote: Counting objects:  87% (145/166)        
+remote: Counting objects:  88% (147/166)        
+remote: Counting objects:  89% (148/166)        
+remote: Counting objects:  90% (150/166)        
+remote: Counting objects:  91% (152/166)        
+remote: Counting objects:  92% (153/166)        
+remote: Counting objects:  93% (155/166)        
+remote: Counting objects:  94% (157/166)        
+remote: Counting objects:  95% (158/166)        
+remote: Counting objects:  96% (160/166)        
+remote: Counting objects:  97% (162/166)        
+remote: Counting objects:  98% (163/166)        
+remote: Counting objects:  99% (165/166)        
+remote: Counting objects: 100% (166/166)        
+remote: Counting objects: 100% (166/166), done.
+remote: Compressing objects:   0% (1/156)        
+remote: Compressing objects:   1% (2/156)        
+remote: Compressing objects:   2% (4/156)        
+remote: Compressing objects:   3% (5/156)        
+remote: Compressing objects:   4% (7/156)        
+remote: Compressing objects:   5% (8/156)        
+remote: Compressing objects:   6% (10/156)        
+remote: Compressing objects:   7% (11/156)        
+remote: Compressing objects:   8% (13/156)        
+remote: Compressing objects:   9% (15/156)        
+remote: Compressing objects:  10% (16/156)        
+remote: Compressing objects:  11% (18/156)        
+remote: Compressing objects:  12% (19/156)        
+remote: Compressing objects:  13% (21/156)        
+remote: Compressing objects:  14% (22/156)        
+remote: Compressing objects:  15% (24/156)        
+remote: Compressing objects:  16% (25/156)        
+remote: Compressing objects:  17% (27/156)        
+remote: Compressing objects:  18% (29/156)        
+remote: Compressing objects:  19% (30/156)        
+remote: Compressing objects:  20% (32/156)        
+remote: Compressing objects:  21% (33/156)        
+remote: Compressing objects:  22% (35/156)        
+remote: Compressing objects:  23% (36/156)        
+remote: Compressing objects:  24% (38/156)        
+remote: Compressing objects:  25% (39/156)        
+remote: Compressing objects:  26% (41/156)        
+remote: Compressing objects:  27% (43/156)        
+remote: Compressing objects:  28% (44/156)        
+remote: Compressing objects:  29% (46/156)        
+remote: Compressing objects:  30% (47/156)        
+remote: Compressing objects:  31% (49/156)        
+remote: Compressing objects:  32% (50/156)        
+remote: Compressing objects:  33% (52/156)        
+remote: Compressing objects:  34% (54/156)        
+remote: Compressing objects:  35% (55/156)        
+remote: Compressing objects:  36% (57/156)        
+remote: Compressing objects:  37% (58/156)        
+remote: Compressing objects:  38% (60/156)        
+remote: Compressing objects:  39% (61/156)        
+remote: Compressing objects:  40% (63/156)        
+remote: Compressing objects:  41% (64/156)        
+remote: Compressing objects:  42% (66/156)        
+remote: Compressing objects:  43% (68/156)        
+remote: Compressing objects:  44% (69/156)        
+remote: Compressing objects:  45% (71/156)        
+remote: Compressing objects:  46% (72/156)        
+remote: Compressing objects:  47% (74/156)        
+remote: Compressing objects:  48% (75/156)        
+remote: Compressing objects:  49% (77/156)        
+remote: Compressing objects:  50% (78/156)        
+remote: Compressing objects:  51% (80/156)        
+remote: Compressing objects:  52% (82/156)        
+remote: Compressing objects:  53% (83/156)        
+remote: Compressing objects:  54% (85/156)        
+remote: Compressing objects:  55% (86/156)        
+remote: Compressing objects:  56% (88/156)        
+remote: Compressing objects:  57% (89/156)        
+remote: Compressing objects:  58% (91/156)        
+remote: Compressing objects:  59% (93/156)        
+remote: Compressing objects:  60% (94/156)        
+remote: Compressing objects:  61% (96/156)        
+remote: Compressing objects:  62% (97/156)        
+remote: Compressing objects:  63% (99/156)        
+remote: Compressing objects:  64% (100/156)        
+remote: Compressing objects:  65% (102/156)        
+remote: Compressing objects:  66% (103/156)        
+remote: Compressing objects:  67% (105/156)        
+remote: Compressing objects:  68% (107/156)        
+remote: Compressing objects:  69% (108/156)        
+remote: Compressing objects:  70% (110/156)        
+remote: Compressing objects:  71% (111/156)        
+remote: Compressing objects:  72% (113/156)        
+remote: Compressing objects:  73% (114/156)        
+remote: Compressing objects:  74% (116/156)        
+remote: Compressing objects:  75% (117/156)        
+remote: Compressing objects:  76% (119/156)        
+remote: Compressing objects:  77% (121/156)        
+remote: Compressing objects:  78% (122/156)        
+remote: Compressing objects:  79% (124/156)        
+remote: Compressing objects:  80% (125/156)        
+remote: Compressing objects:  81% (127/156)        
+remote: Compressing objects:  82% (128/156)        
+remote: Compressing objects:  83% (130/156)        
+remote: Compressing objects:  84% (132/156)        
+remote: Compressing objects:  85% (133/156)        
+remote: Compressing objects:  86% (135/156)        
+remote: Compressing objects:  87% (136/156)        
+remote: Compressing objects:  88% (138/156)        
+remote: Compressing objects:  89% (139/156)        
+remote: Compressing objects:  90% (141/156)        
+remote: Compressing objects:  91% (142/156)        
+remote: Compressing objects:  92% (144/156)        
+remote: Compressing objects:  93% (146/156)        
+remote: Compressing objects:  94% (147/156)        
+remote: Compressing objects:  95% (149/156)        
+remote: Compressing objects:  96% (150/156)        
+remote: Compressing objects:  97% (152/156)        
+remote: Compressing objects:  98% (153/156)        
+remote: Compressing objects:  99% (155/156)        
+remote: Compressing objects: 100% (156/156)        
+remote: Compressing objects: 100% (156/156), done.
+Receiving objects:   0% (1/166)
+Receiving objects:   1% (2/166)
+Receiving objects:   2% (4/166)
+Receiving objects:   3% (5/166)
+Receiving objects:   4% (7/166)
+Receiving objects:   5% (9/166)
+Receiving objects:   6% (10/166)
+Receiving objects:   7% (12/166)
+Receiving objects:   8% (14/166)
+Receiving objects:   9% (15/166)
+Receiving objects:  10% (17/166)
+Receiving objects:  11% (19/166)
+Receiving objects:  12% (20/166)
+Receiving objects:  13% (22/166)
+Receiving objects:  14% (24/166)
+Receiving objects:  15% (25/166)
+Receiving objects:  16% (27/166)
+Receiving objects:  17% (29/166)
+Receiving objects:  18% (30/166)
+Receiving objects:  19% (32/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  20% (34/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  21% (35/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  22% (37/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  23% (39/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  24% (40/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  25% (42/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  26% (44/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  27% (45/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  28% (47/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  29% (49/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  30% (50/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  31% (52/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  32% (54/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  33% (55/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  34% (57/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  35% (59/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  36% (60/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  37% (62/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  38% (64/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  39% (65/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  40% (67/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  41% (69/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  42% (70/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  43% (72/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  44% (74/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  45% (75/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  46% (77/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  47% (79/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  48% (80/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  49% (82/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  50% (83/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  51% (85/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  52% (87/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  53% (88/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  54% (90/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  55% (92/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  56% (93/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  57% (95/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  58% (97/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  59% (98/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  60% (100/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  61% (102/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  62% (103/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  63% (105/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  64% (107/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  65% (108/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  66% (110/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  67% (112/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  68% (113/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  69% (115/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  70% (117/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  71% (118/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  72% (120/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  73% (122/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  74% (123/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  75% (125/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  76% (127/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  77% (128/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  78% (130/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  79% (132/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  80% (133/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  81% (135/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  82% (137/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  83% (138/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  84% (140/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  85% (142/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  86% (143/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  87% (145/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  88% (147/166), 7.73 MiB | 15.44 MiB/s
+remote: Total 166 (delta 6), reused 165 (delta 6), pack-reused 0 (from 0)
+Receiving objects:  89% (148/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  90% (150/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  91% (152/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  92% (153/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  93% (155/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  94% (157/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  95% (158/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  96% (160/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  97% (162/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  98% (163/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects:  99% (165/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects: 100% (166/166), 7.73 MiB | 15.44 MiB/s
+Receiving objects: 100% (166/166), 19.95 MiB | 20.53 MiB/s, done.
+Resolving deltas:   0% (0/6)
+Resolving deltas:  16% (1/6)
+Resolving deltas:  33% (2/6)
+Resolving deltas:  50% (3/6)
+Resolving deltas:  66% (4/6)
+Resolving deltas:  83% (5/6)
+Resolving deltas: 100% (6/6)
+Resolving deltas: 100% (6/6), done.
+Starting nixpacks build...
+╔══════════════════════════════ Nixpacks v1.41.0 ══════════════════��═══════════╗
+║ setup      │ nodejs_18, npm-9_x, openssl                                     ║
+║──────────────────────────────────────────────────────────────────────────────║
+║ caddy      │ pkgs: caddy                                                     ║
+║            │ cmds: caddy fmt --overwrite /assets/Caddyfile                   ║
+║──────────────────────────────────────────────────────────────────────────────║
+║ install    │ npm ci                                                          ║
+║──────────────────────────────────────────────────────────────────────────────║
+║ build      │ npm run build                                                   ║
+║──────────────────────────────────────────────────────────────────────────────║
+║ start      │ exec caddy run --config /assets/Caddyfile --adapter caddyfile   ║
+║            │ 2>&1                                                            ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+#0 building with "default" instance using docker driver
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile:
+#1 transferring dockerfile: 1.60kB 0.2s done
+#1 DONE 0.4s
+#2 [internal] load metadata for ghcr.io/railwayapp/nixpacks:ubuntu-1745885067
+#2 DONE 1.7s
+#3 [internal] load .dockerignore
+#3 transferring context: 129B done
+#3 DONE 0.0s
+#4 [internal] load build context
+#4 DONE 0.0s
+#5 [stage-0  1/15] FROM ghcr.io/railwayapp/nixpacks:ubuntu-1745885067@sha256:d45c89d80e13d7ad0fd555b5130f22a866d9dd10e861f589932303ef2314c7de
+#5 resolve ghcr.io/railwayapp/nixpacks:ubuntu-1745885067@sha256:d45c89d80e13d7ad0fd555b5130f22a866d9dd10e861f589932303ef2314c7de 0.2s done
+#5 sha256:866b26ac4e4722aa6bd512e1e0c5fa91657dc060ef3eebbbcbd6057625e8f518 335B / 335B 0.1s done
+#5 sha256:7962e2b983fd33a26ed1c6cd3dc8130d909d793c6a76893ed532f122edf72913 0B / 33.30MB 0.2s
+#5 sha256:b65af0a51d863b994ae8e73f3b739ad2c14c4ab0f3b8807c7baf25404b897c06 0B / 75.95MB 0.3s
+#5 sha256:2726e237d1a374379e783053d93d0345c8a3bf3c57b5d35b099de1ad777486ee 0B / 29.72MB 0.3s
+#5 sha256:2726e237d1a374379e783053d93d0345c8a3bf3c57b5d35b099de1ad777486ee 2.10MB / 29.72MB 1.4s
+#5 sha256:7962e2b983fd33a26ed1c6cd3dc8130d909d793c6a76893ed532f122edf72913 2.10MB / 33.30MB 1.6s
+#5 ...
+#4 [internal] load build context
+#4 transferring context: 24.08MB 2.3s done
+#4 DONE 2.5s
+#5 [stage-0  1/15] FROM ghcr.io/railwayapp/nixpacks:ubuntu-1745885067@sha256:d45c89d80e13d7ad0fd555b5130f22a866d9dd10e861f589932303ef2314c7de
+#5 sha256:b65af0a51d863b994ae8e73f3b739ad2c14c4ab0f3b8807c7baf25404b897c06 3.83MB / 75.95MB 2.0s
+#5 sha256:2726e237d1a374379e783053d93d0345c8a3bf3c57b5d35b099de1ad777486ee 4.19MB / 29.72MB 2.2s
+#5 sha256:7962e2b983fd33a26ed1c6cd3dc8130d909d793c6a76893ed532f122edf72913 4.19MB / 33.30MB 2.4s
+#5 sha256:7962e2b983fd33a26ed1c6cd3dc8130d909d793c6a76893ed532f122edf72913 7.34MB / 33.30MB 2.7s
+#5 sha256:2726e237d1a374379e783053d93d0345c8a3bf3c57b5d35b099de1ad777486ee 7.34MB / 29.72MB 2.9s
+#5 sha256:7962e2b983fd33a26ed1c6cd3dc8130d909d793c6a76893ed532f122edf72913 9.48MB / 33.30MB 3.0s
+#5 sha256:b65af0a51d863b994ae8e73f3b739ad2c14c4ab0f3b8807c7baf25404b897c06 8.11MB / 75.95MB 3.0s
+#5 sha256:2726e237d1a374379e783053d93d0345c8a3bf3c57b5d35b099de1ad777486ee 9.44MB / 29.72MB 3.0s
+#5 sha256:7962e2b983fd33a26ed1c6cd3dc8130d909d793c6a76893ed532f122edf72913 11.23MB / 33.30MB 3.3s
+#5 sha256:2726e237d1a374379e783053d93d0345c8a3bf3c57b5d35b099de1ad777486ee 11.53MB / 29.72MB 3.5s
+#5 sha256:b65af0a51d863b994ae8e73f3b739ad2c14c4ab0f3b8807c7baf25404b897c06 12.58MB / 75.95MB 4.0s
+#5 sha256:7962e2b983fd33a26ed1c6cd3dc8130d909d793c6a76893ed532f122edf72913 14.48MB / 33.30MB 4.4s
+#5 sha256:2726e237d1a374379e783053d93d0345c8a3bf3c57b5d35b099de1ad777486ee 13.63MB / 29.72MB 4.2s
+#5 sha256:7962e2b983fd33a26ed1c6cd3dc8130d909d793c6a76893ed532f122edf72913 17.83MB / 33.30MB 5.1s
+#5 sha256:2726e237d1a374379e783053d93d0345c8a3bf3c57b5d35b099de1ad777486ee 15.73MB / 29.72MB 5.0s
+#5 sha256:b65af0a51d863b994ae8e73f3b739ad2c14c4ab0f3b8807c7baf25404b897c06 16.78MB / 75.95MB 5.1s
+#5 sha256:7962e2b983fd33a26ed1c6cd3dc8130d909d793c6a76893ed532f122edf72913 22.02MB / 33.30MB 5.6s
+#5 sha256:2726e237d1a374379e783053d93d0345c8a3bf3c57b5d35b099de1ad777486ee 17.83MB / 29.72MB 5.6s
+#5 sha256:7962e2b983fd33a26ed1c6cd3dc8130d909d793c6a76893ed532f122edf72913 24.12MB / 33.30MB 5.7s
+#5 sha256:b65af0a51d863b994ae8e73f3b739ad2c14c4ab0f3b8807c7baf25404b897c06 23.07MB / 75.95MB 5.7s
+#5 sha256:2726e237d1a374379e783053d93d0345c8a3bf3c57b5d35b099de1ad777486ee 20.97MB / 29.72MB 5.7s
+#5 sha256:7962e2b983fd33a26ed1c6cd3dc8130d909d793c6a76893ed532f122edf72913 27.51MB / 33.30MB 5.9s
+#5 sha256:7962e2b983fd33a26ed1c6cd3dc8130d909d793c6a76893ed532f122edf72913 29.36MB / 33.30MB 6.0s
+#5 sha256:2726e237d1a374379e783053d93d0345c8a3bf3c57b5d35b099de1ad777486ee 23.07MB / 29.72MB 5.9s
+#5 sha256:b65af0a51d863b994ae8e73f3b739ad2c14c4ab0f3b8807c7baf25404b897c06 28.31MB / 75.95MB 6.3s
+#5 sha256:2726e237d1a374379e783053d93d0345c8a3bf3c57b5d35b099de1ad777486ee 25.17MB / 29.72MB 6.3s
+#5 sha256:7962e2b983fd33a26ed1c6cd3dc8130d909d793c6a76893ed532f122edf72913 31.46MB / 33.30MB 6.6s
+#5 sha256:2726e237d1a374379e783053d93d0345c8a3bf3c57b5d35b099de1ad777486ee 29.22MB / 29.72MB 7.0s
+#5 sha256:7962e2b983fd33a26ed1c6cd3dc8130d909d793c6a76893ed532f122edf72913 33.30MB / 33.30MB 7.2s
+#5 sha256:b65af0a51d863b994ae8e73f3b739ad2c14c4ab0f3b8807c7baf25404b897c06 34.60MB / 75.95MB 7.1s
+#5 sha256:b65af0a51d863b994ae8e73f3b739ad2c14c4ab0f3b8807c7baf25404b897c06 45.09MB / 75.95MB 7.2s
+#5 sha256:b65af0a51d863b994ae8e73f3b739ad2c14c4ab0f3b8807c7baf25404b897c06 57.67MB / 75.95MB 7.4s
+#5 sha256:7962e2b983fd33a26ed1c6cd3dc8130d909d793c6a76893ed532f122edf72913 33.30MB / 33.30MB 7.8s done
+#5 sha256:b65af0a51d863b994ae8e73f3b739ad2c14c4ab0f3b8807c7baf25404b897c06 62.91MB / 75.95MB 7.7s
+#5 sha256:2726e237d1a374379e783053d93d0345c8a3bf3c57b5d35b099de1ad777486ee 29.72MB / 29.72MB 7.7s done
+#5 sha256:b65af0a51d863b994ae8e73f3b739ad2c14c4ab0f3b8807c7baf25404b897c06 70.93MB / 75.95MB 8.0s
+#5 extracting sha256:2726e237d1a374379e783053d93d0345c8a3bf3c57b5d35b099de1ad777486ee
+#5 sha256:b65af0a51d863b994ae8e73f3b739ad2c14c4ab0f3b8807c7baf25404b897c06 75.95MB / 75.95MB 8.3s
+#5 sha256:b65af0a51d863b994ae8e73f3b739ad2c14c4ab0f3b8807c7baf25404b897c06 75.95MB / 75.95MB 8.3s done
+#5 extracting sha256:2726e237d1a374379e783053d93d0345c8a3bf3c57b5d35b099de1ad777486ee 1.8s done
+#5 DONE 10.3s
+#5 [stage-0  1/15] FROM ghcr.io/railwayapp/nixpacks:ubuntu-1745885067@sha256:d45c89d80e13d7ad0fd555b5130f22a866d9dd10e861f589932303ef2314c7de
+#5 extracting sha256:7962e2b983fd33a26ed1c6cd3dc8130d909d793c6a76893ed532f122edf72913
+#5 extracting sha256:7962e2b983fd33a26ed1c6cd3dc8130d909d793c6a76893ed532f122edf72913 2.0s done
+#5 DONE 12.3s
+#5 [stage-0  1/15] FROM ghcr.io/railwayapp/nixpacks:ubuntu-1745885067@sha256:d45c89d80e13d7ad0fd555b5130f22a866d9dd10e861f589932303ef2314c7de
+#5 extracting sha256:b65af0a51d863b994ae8e73f3b739ad2c14c4ab0f3b8807c7baf25404b897c06
+#5 extracting sha256:b65af0a51d863b994ae8e73f3b739ad2c14c4ab0f3b8807c7baf25404b897c06 2.4s done
+#5 extracting sha256:866b26ac4e4722aa6bd512e1e0c5fa91657dc060ef3eebbbcbd6057625e8f518
+#5 extracting sha256:866b26ac4e4722aa6bd512e1e0c5fa91657dc060ef3eebbbcbd6057625e8f518 0.0s done
+#5 DONE 14.7s
+#6 [stage-0  2/15] WORKDIR /app/
+#6 DONE 0.3s
+#7 [stage-0  3/15] COPY .nixpacks/nixpkgs-ba913eda2df8eb72147259189d55932012df6301.nix .nixpacks/nixpkgs-ba913eda2df8eb72147259189d55932012df6301.nix
+#7 DONE 0.7s
+#8 [stage-0  4/15] RUN nix-env -if .nixpacks/nixpkgs-ba913eda2df8eb72147259189d55932012df6301.nix && nix-collect-garbage -d
+#8 1.938 unpacking 'https://github.com/NixOS/nixpkgs/archive/ba913eda2df8eb72147259189d55932012df6301.tar.gz' into the Git cache...
+#8 63.88 installing 'ba913eda2df8eb72147259189d55932012df6301-env'
+#8 65.93 these 3 derivations will be built:
+#8 65.93   /nix/store/x9qrr2jb0d9d7gjg77imaric1nr9wl3s-libraries.drv
+#8 65.93   /nix/store/4vjgp6bh2gja20gkg167x66kgk10c24j-ba913eda2df8eb72147259189d55932012df6301-env.drv
+#8 65.93   /nix/store/llvngay9gncvs8l6dw01c6wlbh35zzf0-ba913eda2df8eb72147259189d55932012df6301-env.drv
+#8 65.93 these 39 paths will be fetched (32.50 MiB download, 164.57 MiB unpacked):
+#8 65.93   /nix/store/mjgi65m3hgzqqvqcix848gskkw5zzwi9-acl-2.3.2
+#8 65.93   /nix/store/5nk2ga7i2f030am4qpcdsd8qlk6i3z83-attr-2.5.2
+#8 65.93   /nix/store/306znyj77fv49kwnkpxmb0j2znqpa8bj-bash-5.2p26
+#8 65.93   /nix/store/4vkw8ifh2naxmxl323vzq0scm0l36c1v-builder.pl
+#8 65.93   /nix/store/xwcf1rw3ackqp2vxms9myf9jq2ny6ynv-bzip2-1.0.8
+#8 65.93   /nix/store/mxcq77rlan82dzpv3cgj0fh6qvv8ncil-bzip2-1.0.8-bin
+#8 65.93   /nix/store/1iz89fy5fi998g43z1m4j7s5f095di68-caddy-2.8.4
+#8 65.93   /nix/store/php4qidg2bxzmm79vpri025bqi0fa889-coreutils-9.5
+#8 65.93   /nix/store/i34mknsjgrfyy71k2h79gda0bvagzc2j-diffutils-3.10
+#8 65.93   /nix/store/1sffjkg6c6ff16fz5yr0pnz3j7vja42h-ed-1.20.2
+#8 65.93   /nix/store/xx7x1dwybpssfhq8yikvzz38bh3yrq97-file-5.45
+#8 65.93   /nix/store/jjcsr5gs4qanf7ln5c6wgcq4sn75a978-findutils-4.9.0
+#8 65.93   /nix/store/8vvkbgmnin1x2jkp7wcb2zg1p0vc4ks9-gawk-5.2.2
+#8 65.93   /nix/store/xvzz97yk73hw03v5dhhz3j47ggwf1yq1-gcc-13.2.0-lib
+#8 65.93   /nix/store/0rxb3ixzk4zaqivc9s795m0a3679wbw2-gcc-13.2.0-libgcc
+#8 65.93   /nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52
+#8 65.93   /nix/store/7ivacs3m2fm19hyxdmrs05xisj82v6y5-gmp-with-cxx-6.3.0
+#8 65.93   /nix/store/4i0j14zymvlngyyhq2254f4g9m9my98y-gnu-config-2024-01-01
+#8 65.93   /nix/store/28gpmx3z6ss3znd7fhmrzmvk3x5lnfbk-gnugrep-3.11
+#8 65.93   /nix/store/cdzpn0rdq810aknww3w9fy3wmw9ixr66-gnumake-4.4.1
+#8 65.93   /nix/store/5zjms21vpxlkbc0qyl5pmj2sidfmzmd7-gnused-4.9
+#8 65.93   /nix/store/rik7p68cq7yzlj5pmfpf4yv6jnrpvlgf-gnutar-1.35
+#8 65.93   /nix/store/j5chw7v1x3vlmf3wmdpdb5gwh9hl0b80-gzip-1.13
+#8 65.93   /nix/store/dzsby2vk02jcn0s43fkna2qqqix6ccy1-iana-etc-20240318
+#8 65.93   /nix/store/ic63ay0py10fyryaw7345k4ps32da33w-libidn2-2.3.7
+#8 65.93   /nix/store/yfp7dr8m7zi7kxk49wd714gwvhb105hf-libunistring-1.1
+#8 65.93   /nix/store/5xynf9c9ml7d97q70kpq9rpqqmx13xl8-libxcrypt-4.4.36
+#8 65.93   /nix/store/zk9ybjjixdwyv3jmpg2i7s8p7iqi5vhh-mailcap-2.1.53
+#8 65.93   /nix/store/0lfxbmchigx9vs9qmrlbahcy6nxwfnj1-patch-2.7.6
+#8 65.93   /nix/store/nbad47q0m0m9c5xid7zh05hiknwircbp-patchelf-0.15.0
+#8 65.93   /nix/store/g3vi60zgyjsvij7xkk6dxky1hkwh0ynd-pcre2-10.43
+#8 65.93   /nix/store/1iscdpbd3x9x3s3s25jd5ppl7yra0b77-perl-5.38.2
+#8 65.93   /nix/store/rg6agzlb4gcl4w2126m16qm4mgr8jgi6-stdenv-linux
+#8 65.93   /nix/store/y6hmqbmbwq0rmx1fzix5c5jszla2pzmp-tzdata-2024a
+#8 65.93   /nix/store/bq6xbl9cq6hkcn65mz2fzc2k38xiv87h-update-autotools-gnu-config-scripts-hook
+#8 65.93   /nix/store/1q9vc0lq7qjlfjz47mfmlzdf86c543jy-xgcc-13.2.0-libgcc
+#8 65.93   /nix/store/lphbn1va4i43fj7f3m9xskf9y86khzf3-xz-5.4.6
+#8 65.93   /nix/store/6i4xxaa812vsbli9jkq4mksdddrk27lw-xz-5.4.6-bin
+#8 65.93   /nix/store/lv6nackqis28gg7l2ic43f6nk52hb39g-zlib-1.3.1
+#8 65.97 copying path '/nix/store/4vkw8ifh2naxmxl323vzq0scm0l36c1v-builder.pl' from 'https://cache.nixos.org'...
+#8 65.97 copying path '/nix/store/dzsby2vk02jcn0s43fkna2qqqix6ccy1-iana-etc-20240318' from 'https://cache.nixos.org'...
+#8 65.97 copying path '/nix/store/zk9ybjjixdwyv3jmpg2i7s8p7iqi5vhh-mailcap-2.1.53' from 'https://cache.nixos.org'...
+#8 65.97 copying path '/nix/store/y6hmqbmbwq0rmx1fzix5c5jszla2pzmp-tzdata-2024a' from 'https://cache.nixos.org'...
+#8 65.97 copying path '/nix/store/4i0j14zymvlngyyhq2254f4g9m9my98y-gnu-config-2024-01-01' from 'https://cache.nixos.org'...
+#8 65.97 copying path '/nix/store/1q9vc0lq7qjlfjz47mfmlzdf86c543jy-xgcc-13.2.0-libgcc' from 'https://cache.nixos.org'...
+#8 65.97 copying path '/nix/store/0rxb3ixzk4zaqivc9s795m0a3679wbw2-gcc-13.2.0-libgcc' from 'https://cache.nixos.org'...
+#8 65.97 copying path '/nix/store/yfp7dr8m7zi7kxk49wd714gwvhb105hf-libunistring-1.1' from 'https://cache.nixos.org'...
+#8 66.05 copying path '/nix/store/bq6xbl9cq6hkcn65mz2fzc2k38xiv87h-update-autotools-gnu-config-scripts-hook' from 'https://cache.nixos.org'...
+#8 66.23 copying path '/nix/store/ic63ay0py10fyryaw7345k4ps32da33w-libidn2-2.3.7' from 'https://cache.nixos.org'...
+#8 66.27 copying path '/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52' from 'https://cache.nixos.org'...
+#8 67.59 copying path '/nix/store/5nk2ga7i2f030am4qpcdsd8qlk6i3z83-attr-2.5.2' from 'https://cache.nixos.org'...
+#8 67.59 copying path '/nix/store/306znyj77fv49kwnkpxmb0j2znqpa8bj-bash-5.2p26' from 'https://cache.nixos.org'...
+#8 67.59 copying path '/nix/store/xwcf1rw3ackqp2vxms9myf9jq2ny6ynv-bzip2-1.0.8' from 'https://cache.nixos.org'...
+#8 67.59 copying path '/nix/store/1sffjkg6c6ff16fz5yr0pnz3j7vja42h-ed-1.20.2' from 'https://cache.nixos.org'...
+#8 67.59 copying path '/nix/store/8vvkbgmnin1x2jkp7wcb2zg1p0vc4ks9-gawk-5.2.2' from 'https://cache.nixos.org'...
+#8 67.59 copying path '/nix/store/xvzz97yk73hw03v5dhhz3j47ggwf1yq1-gcc-13.2.0-lib' from 'https://cache.nixos.org'...
+#8 67.59 copying path '/nix/store/cdzpn0rdq810aknww3w9fy3wmw9ixr66-gnumake-4.4.1' from 'https://cache.nixos.org'...
+#8 67.60 copying path '/nix/store/5zjms21vpxlkbc0qyl5pmj2sidfmzmd7-gnused-4.9' from 'https://cache.nixos.org'...
+#8 67.60 copying path '/nix/store/5xynf9c9ml7d97q70kpq9rpqqmx13xl8-libxcrypt-4.4.36' from 'https://cache.nixos.org'...
+#8 67.60 copying path '/nix/store/g3vi60zgyjsvij7xkk6dxky1hkwh0ynd-pcre2-10.43' from 'https://cache.nixos.org'...
+#8 67.60 copying path '/nix/store/lphbn1va4i43fj7f3m9xskf9y86khzf3-xz-5.4.6' from 'https://cache.nixos.org'...
+#8 67.60 copying path '/nix/store/1iz89fy5fi998g43z1m4j7s5f095di68-caddy-2.8.4' from 'https://cache.nixos.org'...
+#8 67.60 copying path '/nix/store/lv6nackqis28gg7l2ic43f6nk52hb39g-zlib-1.3.1' from 'https://cache.nixos.org'...
+#8 67.79 copying path '/nix/store/mxcq77rlan82dzpv3cgj0fh6qvv8ncil-bzip2-1.0.8-bin' from 'https://cache.nixos.org'...
+#8 67.85 copying path '/nix/store/0lfxbmchigx9vs9qmrlbahcy6nxwfnj1-patch-2.7.6' from 'https://cache.nixos.org'...
+#8 67.87 copying path '/nix/store/xx7x1dwybpssfhq8yikvzz38bh3yrq97-file-5.45' from 'https://cache.nixos.org'...
+#8 67.89 copying path '/nix/store/mjgi65m3hgzqqvqcix848gskkw5zzwi9-acl-2.3.2' from 'https://cache.nixos.org'...
+#8 68.27 copying path '/nix/store/rik7p68cq7yzlj5pmfpf4yv6jnrpvlgf-gnutar-1.35' from 'https://cache.nixos.org'...
+#8 68.27 copying path '/nix/store/6i4xxaa812vsbli9jkq4mksdddrk27lw-xz-5.4.6-bin' from 'https://cache.nixos.org'...
+#8 68.30 copying path '/nix/store/j5chw7v1x3vlmf3wmdpdb5gwh9hl0b80-gzip-1.13' from 'https://cache.nixos.org'...
+#8 68.51 copying path '/nix/store/28gpmx3z6ss3znd7fhmrzmvk3x5lnfbk-gnugrep-3.11' from 'https://cache.nixos.org'...
+#8 68.97 copying path '/nix/store/7ivacs3m2fm19hyxdmrs05xisj82v6y5-gmp-with-cxx-6.3.0' from 'https://cache.nixos.org'...
+#8 68.97 copying path '/nix/store/nbad47q0m0m9c5xid7zh05hiknwircbp-patchelf-0.15.0' from 'https://cache.nixos.org'...
+#8 69.09 copying path '/nix/store/php4qidg2bxzmm79vpri025bqi0fa889-coreutils-9.5' from 'https://cache.nixos.org'...
+#8 69.19 copying path '/nix/store/jjcsr5gs4qanf7ln5c6wgcq4sn75a978-findutils-4.9.0' from 'https://cache.nixos.org'...
+#8 69.19 copying path '/nix/store/i34mknsjgrfyy71k2h79gda0bvagzc2j-diffutils-3.10' from 'https://cache.nixos.org'...
+#8 69.19 copying path '/nix/store/1iscdpbd3x9x3s3s25jd5ppl7yra0b77-perl-5.38.2' from 'https://cache.nixos.org'...
+#8 69.42 copying path '/nix/store/rg6agzlb4gcl4w2126m16qm4mgr8jgi6-stdenv-linux' from 'https://cache.nixos.org'...
+#8 69.71 building '/nix/store/x9qrr2jb0d9d7gjg77imaric1nr9wl3s-libraries.drv'...
+#8 70.46 building '/nix/store/4vjgp6bh2gja20gkg167x66kgk10c24j-ba913eda2df8eb72147259189d55932012df6301-env.drv'...
+#8 71.27 building '/nix/store/llvngay9gncvs8l6dw01c6wlbh35zzf0-ba913eda2df8eb72147259189d55932012df6301-env.drv'...
+#8 71.38 created 4 symlinks in user environment
+#8 71.48 building '/nix/store/5q154c0kqyja8hjj5iqvrflg2znnawb0-user-environment.drv'...
+#8 71.76 removing old generations of profile /nix/var/nix/profiles/per-user/root/channels
+#8 71.76 removing old generations of profile /nix/var/nix/profiles/per-user/root/profile
+#8 71.76 removing profile version 1
+#8 71.76 removing old generations of profile /nix/var/nix/profiles/per-user/root/channels
+#8 71.76 removing old generations of profile /nix/var/nix/profiles/per-user/root/profile
+#8 71.78 finding garbage collector roots...
+#8 71.78 removing stale link from '/nix/var/nix/gcroots/auto/lzjbmb2ry0z7lma2fvpqprb12921pnb5' to '/nix/var/nix/profiles/per-user/root/profile-1-link'
+#8 71.80 deleting garbage...
+#8 71.80 deleting '/nix/store/a9qf4wwhympzs35ncp80r185j6a21w07-user-environment'
+#8 71.82 deleting '/nix/store/253kwn1730vnay87xkjgxa2v97w3y079-user-environment.drv'
+#8 71.82 deleting '/nix/store/hn5mrh362n52x8wwab9s1v6bgn4n5c94-env-manifest.nix'
+#8 71.86 deleting '/nix/store/p5l041qdj83dg93parxblr0q0al3hhsc-source'
+#8 90.19 deleting '/nix/store/rg6agzlb4gcl4w2126m16qm4mgr8jgi6-stdenv-linux'
+#8 90.19 deleting '/nix/store/xx7x1dwybpssfhq8yikvzz38bh3yrq97-file-5.45'
+#8 90.19 deleting '/nix/store/nbad47q0m0m9c5xid7zh05hiknwircbp-patchelf-0.15.0'
+#8 90.19 deleting '/nix/store/jjcsr5gs4qanf7ln5c6wgcq4sn75a978-findutils-4.9.0'
+#8 90.19 deleting '/nix/store/i34mknsjgrfyy71k2h79gda0bvagzc2j-diffutils-3.10'
+#8 90.20 deleting '/nix/store/1iscdpbd3x9x3s3s25jd5ppl7yra0b77-perl-5.38.2'
+#8 90.22 deleting '/nix/store/php4qidg2bxzmm79vpri025bqi0fa889-coreutils-9.5'
+#8 90.22 deleting '/nix/store/7ivacs3m2fm19hyxdmrs05xisj82v6y5-gmp-with-cxx-6.3.0'
+#8 90.22 deleting '/nix/store/xvzz97yk73hw03v5dhhz3j47ggwf1yq1-gcc-13.2.0-lib'
+#8 90.22 deleting '/nix/store/0rxb3ixzk4zaqivc9s795m0a3679wbw2-gcc-13.2.0-libgcc'
+#8 90.22 deleting '/nix/store/lv6nackqis28gg7l2ic43f6nk52hb39g-zlib-1.3.1'
+#8 90.22 deleting '/nix/store/8vvkbgmnin1x2jkp7wcb2zg1p0vc4ks9-gawk-5.2.2'
+#8 90.22 deleting '/nix/store/6i4xxaa812vsbli9jkq4mksdddrk27lw-xz-5.4.6-bin'
+#8 90.22 deleting '/nix/store/lphbn1va4i43fj7f3m9xskf9y86khzf3-xz-5.4.6'
+#8 90.22 deleting '/nix/store/5zjms21vpxlkbc0qyl5pmj2sidfmzmd7-gnused-4.9'
+#8 90.23 deleting '/nix/store/j5chw7v1x3vlmf3wmdpdb5gwh9hl0b80-gzip-1.13'
+#8 90.23 deleting '/nix/store/4vkw8ifh2naxmxl323vzq0scm0l36c1v-builder.pl'
+#8 90.23 deleting '/nix/store/0lfxbmchigx9vs9qmrlbahcy6nxwfnj1-patch-2.7.6'
+#8 90.23 deleting '/nix/store/jdxlsyfxs63rxxhrzgc3mnhx0mz6s595-libraries'
+#8 90.23 deleting '/nix/store/28gpmx3z6ss3znd7fhmrzmvk3x5lnfbk-gnugrep-3.11'
+#8 90.23 deleting '/nix/store/rik7p68cq7yzlj5pmfpf4yv6jnrpvlgf-gnutar-1.35'
+#8 90.23 deleting '/nix/store/bq6xbl9cq6hkcn65mz2fzc2k38xiv87h-update-autotools-gnu-config-scripts-hook'
+#8 90.23 deleting '/nix/store/4i0j14zymvlngyyhq2254f4g9m9my98y-gnu-config-2024-01-01'
+#8 90.23 deleting '/nix/store/1sffjkg6c6ff16fz5yr0pnz3j7vja42h-ed-1.20.2'
+#8 90.23 deleting '/nix/store/mjgi65m3hgzqqvqcix848gskkw5zzwi9-acl-2.3.2'
+#8 90.23 deleting '/nix/store/5nk2ga7i2f030am4qpcdsd8qlk6i3z83-attr-2.5.2'
+#8 90.24 deleting '/nix/store/5xynf9c9ml7d97q70kpq9rpqqmx13xl8-libxcrypt-4.4.36'
+#8 90.24 deleting '/nix/store/mxcq77rlan82dzpv3cgj0fh6qvv8ncil-bzip2-1.0.8-bin'
+#8 90.24 deleting '/nix/store/xwcf1rw3ackqp2vxms9myf9jq2ny6ynv-bzip2-1.0.8'
+#8 90.24 deleting '/nix/store/306znyj77fv49kwnkpxmb0j2znqpa8bj-bash-5.2p26'
+#8 90.24 deleting '/nix/store/cdzpn0rdq810aknww3w9fy3wmw9ixr66-gnumake-4.4.1'
+#8 90.24 deleting '/nix/store/g3vi60zgyjsvij7xkk6dxky1hkwh0ynd-pcre2-10.43'
+#8 90.24 deleting unused links...
+#8 91.94 note: currently hard linking saves -3.02 MiB
+#8 91.98 36 store paths deleted, 243.63 MiB freed
+#8 DONE 92.1s
+#9 [stage-0  5/15] COPY .nixpacks/nixpkgs-ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7.nix .nixpacks/nixpkgs-ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7.nix
+#9 DONE 0.1s
+#10 [stage-0  6/15] RUN nix-env -if .nixpacks/nixpkgs-ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7.nix && nix-collect-garbage -d
+#10 0.654 unpacking 'https://github.com/NixOS/nixpkgs/archive/ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7.tar.gz' into the Git cache...
+#10 57.56 unpacking 'https://github.com/railwayapp/nix-npm-overlay/archive/main.tar.gz' into the Git cache...
+#10 58.96 installing 'ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7-env'
+#10 60.11 these 5 derivations will be built:
+#10 60.11   /nix/store/6vy68gykpxfphbmmyd59ya88xvrwvvaa-npm-9.9.4.tgz.drv
+#10 60.11   /nix/store/cjdjkmr6gy2h8l0cra71whgrvy030kx1-libraries.drv
+#10 60.11   /nix/store/bs6g8vhkfynvlzidhlqbsvnc9wijbaaz-ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7-env.drv
+#10 60.11   /nix/store/w9h0z1lhfwxc0m38f3w5brfdqrzm4wyj-npm.drv
+#10 60.11   /nix/store/z6kw8c00bs9m7041byi27mb8vfwrl17a-ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7-env.drv
+#10 60.11 these 76 paths will be fetched (118.54 MiB download, 558.32 MiB unpacked):
+#10 60.11   /nix/store/cf7gkacyxmm66lwl5nj6j6yykbrg4q5c-acl-2.3.2
+#10 60.11   /nix/store/a9jgnlhkjkxav6qrc3rzg2q84pkl2wvr-attr-2.5.2
+#10 60.11   /nix/store/5mh7kaj2fyv8mk4sfq1brwxgc02884wi-bash-5.2p37
+#10 60.11   /nix/store/j7p46r8v9gcpbxx89pbqlh61zhd33gzv-binutils-2.43.1
+#10 60.11   /nix/store/df2a8k58k00f2dh2x930dg6xs6g6mliv-binutils-2.43.1-lib
+#10 60.11   /nix/store/srcmmqi8kxjfygd0hyy42c8hv6cws83b-binutils-wrapper-2.43.1
+#10 60.11   /nix/store/wf5zj2gbib3gjqllkabxaw4dh0gzcla3-builder.pl
+#10 60.11   /nix/store/ivl2v8rgg7qh1jkj5pwpqycax3rc2hnl-bzip2-1.0.8
+#10 60.11   /nix/store/mglixp03lsp0w986svwdvm7vcy17rdax-bzip2-1.0.8-bin
+#10 60.11   /nix/store/4s9rah4cwaxflicsk5cndnknqlk9n4p3-coreutils-9.5
+#10 60.11   /nix/store/pkc7mb4a4qvyz73srkqh4mwl70w98dsv-curl-8.11.0
+#10 60.11   /nix/store/p123cq20klajcl9hj8jnkjip5nw6awhz-curl-8.11.0-bin
+#10 60.11   /nix/store/5f5linrxzhhb3mrclkwdpm9bd8ygldna-curl-8.11.0-dev
+#10 60.11   /nix/store/agvks3qmzja0yj54szi3vja6vx3cwkkw-curl-8.11.0-man
+#10 60.11   /nix/store/00g69vw7c9lycy63h45ximy0wmzqx5y6-diffutils-3.10
+#10 60.11   /nix/store/74h4z8k82pmp24xryflv4lxkz8jlpqqd-ed-1.20.2
+#10 60.11   /nix/store/qbry6090vlr9ar33kdmmbq2p5apzbga8-expand-response-params
+#10 60.11   /nix/store/c4rj90r2m89rxs64hmm857mipwjhig5d-file-5.46
+#10 60.11   /nix/store/jqrz1vq5nz4lnv9pqzydj0ir58wbjfy1-findutils-4.10.0
+#10 60.11   /nix/store/a3c47r5z1q2c4rz0kvq8hlilkhx2s718-gawk-5.3.1
+#10 60.11   /nix/store/l89iqc7am6i60y8vk507zwrzxf0wcd3v-gcc-14-20241116
+#10 60.11   /nix/store/bpq1s72cw9qb2fs8mnmlw6hn2c7iy0ss-gcc-14-20241116-lib
+#10 60.11   /nix/store/17v0ywnr3akp85pvdi56gwl99ljv95kx-gcc-14-20241116-libgcc
+#10 60.11   /nix/store/xcn9p4xxfbvlkpah7pwchpav4ab9d135-gcc-wrapper-14-20241116
+#10 60.11   /nix/store/65h17wjrrlsj2rj540igylrx7fqcd6vq-glibc-2.40-36
+#10 60.11   /nix/store/1c6bmxrrhm8bd26ai2rjqld2yyjrxhds-glibc-2.40-36-bin
+#10 60.11   /nix/store/kj8hbqx4ds9qm9mq7hyikxyfwwg13kzj-glibc-2.40-36-dev
+#10 60.11   /nix/store/kryrg7ds05iwcmy81amavk8w13y4lxbs-gmp-6.3.0
+#10 60.11   /nix/store/a2byxfv4lc8f2g5xfzw8cz5q8k05wi29-gmp-with-cxx-6.3.0
+#10 60.11   /nix/store/1m67ipsk39xvhyqrxnzv2m2p48pil8kl-gnu-config-2024-01-01
+#10 60.11   /nix/store/aap6cq56amx4mzbyxp2wpgsf1kqjcr1f-gnugrep-3.11
+#10 60.11   /nix/store/fp6cjl1zcmm6mawsnrb5yak1wkz2ma8l-gnumake-4.4.1
+#10 60.11   /nix/store/abm77lnrkrkb58z6xp1qwjcr1xgkcfwm-gnused-4.9
+#10 60.11   /nix/store/9cwwj1c9csmc85l2cqzs3h9hbf1vwl6c-gnutar-1.35
+#10 60.11   /nix/store/nvvj6sk0k6px48436drlblf4gafgbvzr-gzip-1.13
+#10 60.11   /nix/store/wwipgdqb4p2fr46kmw9c5wlk799kbl68-icu4c-74.2
+#10 60.11   /nix/store/m8w3mf0i4862q22bxad0wspkgdy4jnkk-icu4c-74.2-dev
+#10 60.11   /nix/store/xmbv8s4p4i4dbxgkgdrdfb0ym25wh6gk-isl-0.20
+#10 60.11   /nix/store/2wh1gqyzf5xsvxpdz2k0bxiz583wwq29-keyutils-1.6.3-lib
+#10 60.11   /nix/store/milph81dilrh96isyivh5n50agpx39k2-krb5-1.21.3
+#10 60.11   /nix/store/b56mswksrql15knpb1bnhv3ysif340kd-krb5-1.21.3-dev
+#10 60.11   /nix/store/v9c1s50x7magpiqgycxxkn36avzbcg0g-krb5-1.21.3-lib
+#10 60.11   /nix/store/34z2792zyd4ayl5186vx0s98ckdaccz9-libidn2-2.3.7
+#10 60.11   /nix/store/2a3anh8vl3fcgk0fvaravlimrqawawza-libmpc-1.3.1
+#10 60.11   /nix/store/8675pnfr4fqnwv4pzjl67hdwls4q13aa-libssh2-1.11.1
+#10 60.11   /nix/store/d7zhcrcc7q3yfbm3qkqpgc3daq82spwi-libssh2-1.11.1-dev
+#10 60.11   /nix/store/xcqcgqazykf6s7fsn08k0blnh0wisdcl-libunistring-1.3
+#10 60.11   /nix/store/r9ac2hwnmb0nxwsrvr6gi9wsqf2whfqj-libuv-1.49.2
+#10 60.11   /nix/store/ll14czvpxglf6nnwmmrmygplm830fvlv-libuv-1.49.2-dev
+#10 60.11   /nix/store/6cr0spsvymmrp1hj5n0kbaxw55w1lqyp-libxcrypt-4.4.36
+#10 60.11   /nix/store/pc74azbkr19rkd5bjalq2xwx86cj3cga-linux-headers-6.12
+#10 60.11   /nix/store/fv7gpnvg922frkh81w5hkdhpz0nw3iiz-mirrors-list
+#10 60.11   /nix/store/qs22aazzrdd4dnjf9vffl0n31hvls43h-mpfr-4.2.1
+#10 60.11   /nix/store/grixvx878884hy8x3xs0c0s1i00j632k-nghttp2-1.64.0
+#10 60.11   /nix/store/dz97fw51rm5bl9kz1vg0haj1j1a7r1mr-nghttp2-1.64.0-dev
+#10 60.11   /nix/store/qcghigzrz56vczwlzg9c02vbs6zr9jkz-nghttp2-1.64.0-lib
+#10 60.11   /nix/store/wlpq101dsifq98z2bk300x4dk80wcybr-nodejs-18.20.5
+#10 60.11   /nix/store/9l9n7a0v4aibcz0sgd0crs209an9p7dz-openssl-3.3.2
+#10 60.11   /nix/store/h1ydpxkw9qhjdxjpic1pdc2nirggyy6f-openssl-3.3.2
+#10 60.11   /nix/store/lygl27c44xv73kx1spskcgvzwq7z337c-openssl-3.3.2-bin
+#10 60.11   /nix/store/qq5q0alyzywdazhmybi7m69akz0ppk05-openssl-3.3.2-bin
+#10 60.11   /nix/store/kqm7wpqkzc4bwjlzqizcbz0mgkj06a9x-openssl-3.3.2-dev
+#10 60.11   /nix/store/pp2zf8bdgyz60ds8vcshk2603gcjgp72-openssl-3.3.2-dev
+#10 60.11   /nix/store/q10wlq1brcnc21v5qvhbj9fwlf806dgm-openssl-3.3.2-man
+#10 60.11   /nix/store/5yja5dpk2qw1v5mbfbl2d7klcdfrh90w-patch-2.7.6
+#10 60.11   /nix/store/srfxqk119fijwnprgsqvn68ys9kiw0bn-patchelf-0.15.0
+#10 60.11   /nix/store/3j1p598fivxs69wx3a657ysv3rw8k06l-pcre2-10.44
+#10 60.11   /nix/store/1i003ijlh9i0mzp6alqby5hg3090pjdx-perl-5.40.0
+#10 60.11   /nix/store/4ig84cyqi6qy4n0sanrbzsw1ixa497jx-stdenv-linux
+#10 60.11   /nix/store/d0gfdcag8bxzvg7ww4s7px4lf8sxisyx-stdenv-linux
+#10 60.11   /nix/store/d29r1bdmlvwmj52apgcdxfl1mm9c5782-update-autotools-gnu-config-scripts-hook
+#10 60.11   /nix/store/acfkqzj5qrqs88a4a6ixnybbjxja663d-xgcc-14-20241116-libgcc
+#10 60.11   /nix/store/c2njy6bv84kw1i4bjf5k5gn7gz8hn57n-xz-5.6.3
+#10 60.11   /nix/store/h18s640fnhhj2qdh5vivcfbxvz377srg-xz-5.6.3-bin
+#10 60.11   /nix/store/cqlaa2xf6lslnizyj9xqa8j0ii1yqw0x-zlib-1.3.1
+#10 60.11   /nix/store/1lggwqzapn5mn49l9zy4h566ysv9kzdb-zlib-1.3.1-dev
+#10 60.12 copying path '/nix/store/wf5zj2gbib3gjqllkabxaw4dh0gzcla3-builder.pl' from 'https://cache.nixos.org'...
+#10 60.12 copying path '/nix/store/q10wlq1brcnc21v5qvhbj9fwlf806dgm-openssl-3.3.2-man' from 'https://cache.nixos.org'...
+#10 60.12 copying path '/nix/store/17v0ywnr3akp85pvdi56gwl99ljv95kx-gcc-14-20241116-libgcc' from 'https://cache.nixos.org'...
+#10 60.12 copying path '/nix/store/1m67ipsk39xvhyqrxnzv2m2p48pil8kl-gnu-config-2024-01-01' from 'https://cache.nixos.org'...
+#10 60.12 copying path '/nix/store/acfkqzj5qrqs88a4a6ixnybbjxja663d-xgcc-14-20241116-libgcc' from 'https://cache.nixos.org'...
+#10 60.12 copying path '/nix/store/xcqcgqazykf6s7fsn08k0blnh0wisdcl-libunistring-1.3' from 'https://cache.nixos.org'...
+#10 60.12 copying path '/nix/store/pc74azbkr19rkd5bjalq2xwx86cj3cga-linux-headers-6.12' from 'https://cache.nixos.org'...
+#10 60.13 copying path '/nix/store/fv7gpnvg922frkh81w5hkdhpz0nw3iiz-mirrors-list' from 'https://cache.nixos.org'...
+#10 60.13 copying path '/nix/store/agvks3qmzja0yj54szi3vja6vx3cwkkw-curl-8.11.0-man' from 'https://cache.nixos.org'...
+#10 60.13 copying path '/nix/store/grixvx878884hy8x3xs0c0s1i00j632k-nghttp2-1.64.0' from 'https://cache.nixos.org'...
+#10 60.13 copying path '/nix/store/d29r1bdmlvwmj52apgcdxfl1mm9c5782-update-autotools-gnu-config-scripts-hook' from 'https://cache.nixos.org'...
+#10 60.22 copying path '/nix/store/34z2792zyd4ayl5186vx0s98ckdaccz9-libidn2-2.3.7' from 'https://cache.nixos.org'...
+#10 60.63 copying path '/nix/store/65h17wjrrlsj2rj540igylrx7fqcd6vq-glibc-2.40-36' from 'https://cache.nixos.org'...
+#10 64.20 copying path '/nix/store/a9jgnlhkjkxav6qrc3rzg2q84pkl2wvr-attr-2.5.2' from 'https://cache.nixos.org'...
+#10 64.20 copying path '/nix/store/5mh7kaj2fyv8mk4sfq1brwxgc02884wi-bash-5.2p37' from 'https://cache.nixos.org'...
+#10 64.20 copying path '/nix/store/ivl2v8rgg7qh1jkj5pwpqycax3rc2hnl-bzip2-1.0.8' from 'https://cache.nixos.org'...
+#10 64.20 copying path '/nix/store/qbry6090vlr9ar33kdmmbq2p5apzbga8-expand-response-params' from 'https://cache.nixos.org'...
+#10 64.20 copying path '/nix/store/bpq1s72cw9qb2fs8mnmlw6hn2c7iy0ss-gcc-14-20241116-lib' from 'https://cache.nixos.org'...
+#10 64.20 copying path '/nix/store/74h4z8k82pmp24xryflv4lxkz8jlpqqd-ed-1.20.2' from 'https://cache.nixos.org'...
+#10 64.20 copying path '/nix/store/kryrg7ds05iwcmy81amavk8w13y4lxbs-gmp-6.3.0' from 'https://cache.nixos.org'...
+#10 64.20 copying path '/nix/store/fp6cjl1zcmm6mawsnrb5yak1wkz2ma8l-gnumake-4.4.1' from 'https://cache.nixos.org'...
+#10 64.20 copying path '/nix/store/abm77lnrkrkb58z6xp1qwjcr1xgkcfwm-gnused-4.9' from 'https://cache.nixos.org'...
+#10 64.20 copying path '/nix/store/a3c47r5z1q2c4rz0kvq8hlilkhx2s718-gawk-5.3.1' from 'https://cache.nixos.org'...
+#10 64.20 copying path '/nix/store/1c6bmxrrhm8bd26ai2rjqld2yyjrxhds-glibc-2.40-36-bin' from 'https://cache.nixos.org'...
+#10 64.20 copying path '/nix/store/2wh1gqyzf5xsvxpdz2k0bxiz583wwq29-keyutils-1.6.3-lib' from 'https://cache.nixos.org'...
+#10 64.20 copying path '/nix/store/r9ac2hwnmb0nxwsrvr6gi9wsqf2whfqj-libuv-1.49.2' from 'https://cache.nixos.org'...
+#10 64.20 copying path '/nix/store/qcghigzrz56vczwlzg9c02vbs6zr9jkz-nghttp2-1.64.0-lib' from 'https://cache.nixos.org'...
+#10 64.20 copying path '/nix/store/6cr0spsvymmrp1hj5n0kbaxw55w1lqyp-libxcrypt-4.4.36' from 'https://cache.nixos.org'...
+#10 64.22 copying path '/nix/store/9l9n7a0v4aibcz0sgd0crs209an9p7dz-openssl-3.3.2' from 'https://cache.nixos.org'...
+#10 64.28 copying path '/nix/store/h1ydpxkw9qhjdxjpic1pdc2nirggyy6f-openssl-3.3.2' from 'https://cache.nixos.org'...
+#10 64.28 copying path '/nix/store/dz97fw51rm5bl9kz1vg0haj1j1a7r1mr-nghttp2-1.64.0-dev' from 'https://cache.nixos.org'...
+#10 64.30 copying path '/nix/store/3j1p598fivxs69wx3a657ysv3rw8k06l-pcre2-10.44' from 'https://cache.nixos.org'...
+#10 64.30 copying path '/nix/store/5yja5dpk2qw1v5mbfbl2d7klcdfrh90w-patch-2.7.6' from 'https://cache.nixos.org'...
+#10 64.32 copying path '/nix/store/cf7gkacyxmm66lwl5nj6j6yykbrg4q5c-acl-2.3.2' from 'https://cache.nixos.org'...
+#10 64.32 copying path '/nix/store/ll14czvpxglf6nnwmmrmygplm830fvlv-libuv-1.49.2-dev' from 'https://cache.nixos.org'...
+#10 64.33 copying path '/nix/store/mglixp03lsp0w986svwdvm7vcy17rdax-bzip2-1.0.8-bin' from 'https://cache.nixos.org'...
+#10 64.33 copying path '/nix/store/c2njy6bv84kw1i4bjf5k5gn7gz8hn57n-xz-5.6.3' from 'https://cache.nixos.org'...
+#10 64.38 copying path '/nix/store/xmbv8s4p4i4dbxgkgdrdfb0ym25wh6gk-isl-0.20' from 'https://cache.nixos.org'...
+#10 64.38 copying path '/nix/store/cqlaa2xf6lslnizyj9xqa8j0ii1yqw0x-zlib-1.3.1' from 'https://cache.nixos.org'...
+#10 64.38 copying path '/nix/store/qs22aazzrdd4dnjf9vffl0n31hvls43h-mpfr-4.2.1' from 'https://cache.nixos.org'...
+#10 64.42 copying path '/nix/store/nvvj6sk0k6px48436drlblf4gafgbvzr-gzip-1.13' from 'https://cache.nixos.org'...
+#10 64.43 copying path '/nix/store/9cwwj1c9csmc85l2cqzs3h9hbf1vwl6c-gnutar-1.35' from 'https://cache.nixos.org'...
+#10 64.44 copying path '/nix/store/df2a8k58k00f2dh2x930dg6xs6g6mliv-binutils-2.43.1-lib' from 'https://cache.nixos.org'...
+#10 64.44 copying path '/nix/store/c4rj90r2m89rxs64hmm857mipwjhig5d-file-5.46' from 'https://cache.nixos.org'...
+#10 64.44 copying path '/nix/store/1lggwqzapn5mn49l9zy4h566ysv9kzdb-zlib-1.3.1-dev' from 'https://cache.nixos.org'...
+#10 64.55 copying path '/nix/store/h18s640fnhhj2qdh5vivcfbxvz377srg-xz-5.6.3-bin' from 'https://cache.nixos.org'...
+#10 64.55 copying path '/nix/store/2a3anh8vl3fcgk0fvaravlimrqawawza-libmpc-1.3.1' from 'https://cache.nixos.org'...
+#10 64.55 copying path '/nix/store/aap6cq56amx4mzbyxp2wpgsf1kqjcr1f-gnugrep-3.11' from 'https://cache.nixos.org'...
+#10 64.64 copying path '/nix/store/kj8hbqx4ds9qm9mq7hyikxyfwwg13kzj-glibc-2.40-36-dev' from 'https://cache.nixos.org'...
+#10 64.87 copying path '/nix/store/v9c1s50x7magpiqgycxxkn36avzbcg0g-krb5-1.21.3-lib' from 'https://cache.nixos.org'...
+#10 64.87 copying path '/nix/store/8675pnfr4fqnwv4pzjl67hdwls4q13aa-libssh2-1.11.1' from 'https://cache.nixos.org'...
+#10 64.87 copying path '/nix/store/qq5q0alyzywdazhmybi7m69akz0ppk05-openssl-3.3.2-bin' from 'https://cache.nixos.org'...
+#10 64.92 copying path '/nix/store/lygl27c44xv73kx1spskcgvzwq7z337c-openssl-3.3.2-bin' from 'https://cache.nixos.org'...
+#10 64.93 copying path '/nix/store/j7p46r8v9gcpbxx89pbqlh61zhd33gzv-binutils-2.43.1' from 'https://cache.nixos.org'...
+#10 64.93 copying path '/nix/store/wwipgdqb4p2fr46kmw9c5wlk799kbl68-icu4c-74.2' from 'https://cache.nixos.org'...
+#10 64.93 copying path '/nix/store/srfxqk119fijwnprgsqvn68ys9kiw0bn-patchelf-0.15.0' from 'https://cache.nixos.org'...
+#10 64.93 copying path '/nix/store/a2byxfv4lc8f2g5xfzw8cz5q8k05wi29-gmp-with-cxx-6.3.0' from 'https://cache.nixos.org'...
+#10 64.95 copying path '/nix/store/kqm7wpqkzc4bwjlzqizcbz0mgkj06a9x-openssl-3.3.2-dev' from 'https://cache.nixos.org'...
+#10 64.95 copying path '/nix/store/l89iqc7am6i60y8vk507zwrzxf0wcd3v-gcc-14-20241116' from 'https://cache.nixos.org'...
+#10 64.99 copying path '/nix/store/pp2zf8bdgyz60ds8vcshk2603gcjgp72-openssl-3.3.2-dev' from 'https://cache.nixos.org'...
+#10 64.99 copying path '/nix/store/4s9rah4cwaxflicsk5cndnknqlk9n4p3-coreutils-9.5' from 'https://cache.nixos.org'...
+#10 65.13 copying path '/nix/store/d7zhcrcc7q3yfbm3qkqpgc3daq82spwi-libssh2-1.11.1-dev' from 'https://cache.nixos.org'...
+#10 65.18 copying path '/nix/store/00g69vw7c9lycy63h45ximy0wmzqx5y6-diffutils-3.10' from 'https://cache.nixos.org'...
+#10 65.18 copying path '/nix/store/jqrz1vq5nz4lnv9pqzydj0ir58wbjfy1-findutils-4.10.0' from 'https://cache.nixos.org'...
+#10 65.18 copying path '/nix/store/1i003ijlh9i0mzp6alqby5hg3090pjdx-perl-5.40.0' from 'https://cache.nixos.org'...
+#10 65.21 copying path '/nix/store/pkc7mb4a4qvyz73srkqh4mwl70w98dsv-curl-8.11.0' from 'https://cache.nixos.org'...
+#10 65.21 copying path '/nix/store/milph81dilrh96isyivh5n50agpx39k2-krb5-1.21.3' from 'https://cache.nixos.org'...
+#10 65.36 copying path '/nix/store/p123cq20klajcl9hj8jnkjip5nw6awhz-curl-8.11.0-bin' from 'https://cache.nixos.org'...
+#10 65.37 copying path '/nix/store/4ig84cyqi6qy4n0sanrbzsw1ixa497jx-stdenv-linux' from 'https://cache.nixos.org'...
+#10 65.38 copying path '/nix/store/b56mswksrql15knpb1bnhv3ysif340kd-krb5-1.21.3-dev' from 'https://cache.nixos.org'...
+#10 65.62 building '/nix/store/cjdjkmr6gy2h8l0cra71whgrvy030kx1-libraries.drv'...
+#10 65.64 copying path '/nix/store/5f5linrxzhhb3mrclkwdpm9bd8ygldna-curl-8.11.0-dev' from 'https://cache.nixos.org'...
+#10 65.86 building '/nix/store/6vy68gykpxfphbmmyd59ya88xvrwvvaa-npm-9.9.4.tgz.drv'...
+#10 66.59 building '/nix/store/bs6g8vhkfynvlzidhlqbsvnc9wijbaaz-ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7-env.drv'...
+#10 66.59 copying path '/nix/store/m8w3mf0i4862q22bxad0wspkgdy4jnkk-icu4c-74.2-dev' from 'https://cache.nixos.org'...
+#10 66.70
+#10 66.70 trying https://registry.npmjs.org/npm/-/npm-9.9.4.tgz
+#10 66.73   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+#10 66.73                                  Dload  Upload   Total   Spent    Left  Speed
+#10 66.85 copying path '/nix/store/srcmmqi8kxjfygd0hyy42c8hv6cws83b-binutils-wrapper-2.43.1' from 'https://cache.nixos.org'...
+#10 66.87 100 2648k  100 2648k    0     0  18.3M      0 --:--:-- --:--:-- --:--:-- 18.4M
+#10 67.30 copying path '/nix/store/wlpq101dsifq98z2bk300x4dk80wcybr-nodejs-18.20.5' from 'https://cache.nixos.org'...
+#10 73.54 copying path '/nix/store/xcn9p4xxfbvlkpah7pwchpav4ab9d135-gcc-wrapper-14-20241116' from 'https://cache.nixos.org'...
+#10 73.55 copying path '/nix/store/d0gfdcag8bxzvg7ww4s7px4lf8sxisyx-stdenv-linux' from 'https://cache.nixos.org'...
+#10 73.58 building '/nix/store/w9h0z1lhfwxc0m38f3w5brfdqrzm4wyj-npm.drv'...
+#10 73.63 Running phase: unpackPhase
+#10 73.64 unpacking source archive /nix/store/fkd1ma3nify8r9wp463yg5rqz9hdcyf1-npm-9.9.4.tgz
+#10 73.77 source root is package
+#10 73.82 setting SOURCE_DATE_EPOCH to timestamp 499162500 of file package/package.json
+#10 73.82 Running phase: installPhase
+#10 74.47 building '/nix/store/z6kw8c00bs9m7041byi27mb8vfwrl17a-ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7-env.drv'...
+#10 74.56 created 424 symlinks in user environment
+#10 74.70 building '/nix/store/pfi7dmiw5q83mjpds5fy0ap4pns9wfiz-user-environment.drv'...
+#10 75.08 removing old generations of profile /nix/var/nix/profiles/per-user/root/channels
+#10 75.08 removing old generations of profile /nix/var/nix/profiles/per-user/root/profile
+#10 75.08 removing profile version 2
+#10 75.08 removing old generations of profile /nix/var/nix/profiles/per-user/root/channels
+#10 75.08 removing old generations of profile /nix/var/nix/profiles/per-user/root/profile
+#10 75.09 finding garbage collector roots...
+#10 75.09 removing stale link from '/nix/var/nix/gcroots/auto/v73nmmh5d8van4ja5c8jn0gjlwhxbz3a' to '/nix/var/nix/profiles/per-user/root/profile-2-link'
+#10 75.10 deleting garbage...
+#10 75.15 deleting '/nix/store/5f5linrxzhhb3mrclkwdpm9bd8ygldna-curl-8.11.0-dev'
+#10 75.15 deleting '/nix/store/b56mswksrql15knpb1bnhv3ysif340kd-krb5-1.21.3-dev'
+#10 75.15 deleting '/nix/store/milph81dilrh96isyivh5n50agpx39k2-krb5-1.21.3'
+#10 75.16 deleting '/nix/store/d0gfdcag8bxzvg7ww4s7px4lf8sxisyx-stdenv-linux'
+#10 75.16 deleting '/nix/store/4ig84cyqi6qy4n0sanrbzsw1ixa497jx-stdenv-linux'
+#10 75.16 deleting '/nix/store/c4rj90r2m89rxs64hmm857mipwjhig5d-file-5.46'
+#10 75.16 deleting '/nix/store/dz97fw51rm5bl9kz1vg0haj1j1a7r1mr-nghttp2-1.64.0-dev'
+#10 75.16 deleting '/nix/store/grixvx878884hy8x3xs0c0s1i00j632k-nghttp2-1.64.0'
+#10 75.16 deleting '/nix/store/1c0dv2pdlshjz5kmjd4dfp3c96yncr23-libraries'
+#10 75.16 deleting '/nix/store/d7zhcrcc7q3yfbm3qkqpgc3daq82spwi-libssh2-1.11.1-dev'
+#10 75.16 deleting '/nix/store/fv7gpnvg922frkh81w5hkdhpz0nw3iiz-mirrors-list'
+#10 75.16 deleting '/nix/store/xcn9p4xxfbvlkpah7pwchpav4ab9d135-gcc-wrapper-14-20241116'
+#10 75.16 deleting '/nix/store/l89iqc7am6i60y8vk507zwrzxf0wcd3v-gcc-14-20241116'
+#10 75.18 deleting '/nix/store/2a3anh8vl3fcgk0fvaravlimrqawawza-libmpc-1.3.1'
+#10 75.19 deleting '/nix/store/qs22aazzrdd4dnjf9vffl0n31hvls43h-mpfr-4.2.1'
+#10 75.19 deleting '/nix/store/aap6cq56amx4mzbyxp2wpgsf1kqjcr1f-gnugrep-3.11'
+#10 75.21 deleting '/nix/store/srcmmqi8kxjfygd0hyy42c8hv6cws83b-binutils-wrapper-2.43.1'
+#10 75.21 deleting '/nix/store/kj8hbqx4ds9qm9mq7hyikxyfwwg13kzj-glibc-2.40-36-dev'
+#10 75.22 deleting '/nix/store/58zhsq1drih7bd0lgfxc3gnsj02aikd6-source'
+#10 75.23 deleting '/nix/store/5yja5dpk2qw1v5mbfbl2d7klcdfrh90w-patch-2.7.6'
+#10 75.23 deleting '/nix/store/d29r1bdmlvwmj52apgcdxfl1mm9c5782-update-autotools-gnu-config-scripts-hook'
+#10 75.23 deleting '/nix/store/1i003ijlh9i0mzp6alqby5hg3090pjdx-perl-5.40.0'
+#10 75.26 deleting '/nix/store/p123cq20klajcl9hj8jnkjip5nw6awhz-curl-8.11.0-bin'
+#10 75.26 deleting '/nix/store/pkc7mb4a4qvyz73srkqh4mwl70w98dsv-curl-8.11.0'
+#10 75.27 deleting '/nix/store/qcghigzrz56vczwlzg9c02vbs6zr9jkz-nghttp2-1.64.0-lib'
+#10 75.27 deleting '/nix/store/3j1p598fivxs69wx3a657ysv3rw8k06l-pcre2-10.44'
+#10 75.27 deleting '/nix/store/qbry6090vlr9ar33kdmmbq2p5apzbga8-expand-response-params'
+#10 75.27 deleting '/nix/store/mglixp03lsp0w986svwdvm7vcy17rdax-bzip2-1.0.8-bin'
+#10 75.27 deleting '/nix/store/xmbv8s4p4i4dbxgkgdrdfb0ym25wh6gk-isl-0.20'
+#10 75.27 deleting '/nix/store/1m67ipsk39xvhyqrxnzv2m2p48pil8kl-gnu-config-2024-01-01'
+#10 75.27 deleting '/nix/store/v9c1s50x7magpiqgycxxkn36avzbcg0g-krb5-1.21.3-lib'
+#10 75.28 deleting '/nix/store/kqm7wpqkzc4bwjlzqizcbz0mgkj06a9x-openssl-3.3.2-dev'
+#10 75.28 deleting '/nix/store/qq5q0alyzywdazhmybi7m69akz0ppk05-openssl-3.3.2-bin'
+#10 75.28 deleting '/nix/store/00g69vw7c9lycy63h45ximy0wmzqx5y6-diffutils-3.10'
+#10 75.32 deleting '/nix/store/nvvj6sk0k6px48436drlblf4gafgbvzr-gzip-1.13'
+#10 75.32 deleting '/nix/store/8675pnfr4fqnwv4pzjl67hdwls4q13aa-libssh2-1.11.1'
+#10 75.32 deleting '/nix/store/ivl2v8rgg7qh1jkj5pwpqycax3rc2hnl-bzip2-1.0.8'
+#10 75.32 deleting '/nix/store/h18s640fnhhj2qdh5vivcfbxvz377srg-xz-5.6.3-bin'
+#10 75.32 deleting '/nix/store/c2njy6bv84kw1i4bjf5k5gn7gz8hn57n-xz-5.6.3'
+#10 75.34 deleting '/nix/store/j7p46r8v9gcpbxx89pbqlh61zhd33gzv-binutils-2.43.1'
+#10 75.35 deleting '/nix/store/9l9n7a0v4aibcz0sgd0crs209an9p7dz-openssl-3.3.2'
+#10 75.35 deleting '/nix/store/kryrg7ds05iwcmy81amavk8w13y4lxbs-gmp-6.3.0'
+#10 75.35 deleting '/nix/store/9cwwj1c9csmc85l2cqzs3h9hbf1vwl6c-gnutar-1.35'
+#10 75.37 deleting '/nix/store/wf5zj2gbib3gjqllkabxaw4dh0gzcla3-builder.pl'
+#10 75.37 deleting '/nix/store/6cr0spsvymmrp1hj5n0kbaxw55w1lqyp-libxcrypt-4.4.36'
+#10 75.37 deleting '/nix/store/agvks3qmzja0yj54szi3vja6vx3cwkkw-curl-8.11.0-man'
+#10 75.37 deleting '/nix/store/fkd1ma3nify8r9wp463yg5rqz9hdcyf1-npm-9.9.4.tgz'
+#10 75.37 deleting '/nix/store/srfxqk119fijwnprgsqvn68ys9kiw0bn-patchelf-0.15.0'
+#10 75.37 deleting '/nix/store/jqrz1vq5nz4lnv9pqzydj0ir58wbjfy1-findutils-4.10.0'
+#10 75.38 deleting '/nix/store/2wh1gqyzf5xsvxpdz2k0bxiz583wwq29-keyutils-1.6.3-lib'
+#10 75.39 deleting '/nix/store/lwi59jcfwk2lnrakmm1y5vw85hj3n1bi-source'
+#10 92.79 deleting '/nix/store/pc74azbkr19rkd5bjalq2xwx86cj3cga-linux-headers-6.12'
+#10 92.86 deleting '/nix/store/df2a8k58k00f2dh2x930dg6xs6g6mliv-binutils-2.43.1-lib'
+#10 92.86 deleting '/nix/store/abm77lnrkrkb58z6xp1qwjcr1xgkcfwm-gnused-4.9'
+#10 92.90 deleting '/nix/store/1c6bmxrrhm8bd26ai2rjqld2yyjrxhds-glibc-2.40-36-bin'
+#10 92.90 deleting '/nix/store/a3c47r5z1q2c4rz0kvq8hlilkhx2s718-gawk-5.3.1'
+#10 92.94 deleting '/nix/store/fp6cjl1zcmm6mawsnrb5yak1wkz2ma8l-gnumake-4.4.1'
+#10 92.97 deleting '/nix/store/74h4z8k82pmp24xryflv4lxkz8jlpqqd-ed-1.20.2'
+#10 92.99 deleting '/nix/store/5q154c0kqyja8hjj5iqvrflg2znnawb0-user-environment.drv'
+#10 92.99 deleting '/nix/store/3jjimb9v9hc78vyp8g6mj86xwz4qqwxm-user-environment'
+#10 93.07 deleting '/nix/store/9virg6mk4pgjf5j8k9p9ibby40x8qvfr-env-manifest.nix'
+#10 93.07 deleting unused links...
+#10 95.75 note: currently hard linking saves 2.40 MiB
+#10 95.81 61 store paths deleted, 559.56 MiB freed
+#10 DONE 95.9s
+#11 [stage-0  7/15] COPY .nixpacks/assets /assets/
+#11 DONE 0.2s
+#12 [stage-0  8/15] COPY . /app/.
+#12 DONE 0.3s
+#13 [stage-0  9/15] RUN  caddy fmt --overwrite /assets/Caddyfile
+#13 DONE 0.7s
+#14 [stage-0 10/15] COPY . /app/.
+#14 DONE 0.3s
+#15 [stage-0 11/15] RUN --mount=type=cache,id=dg1dQC2VtQc-/root/npm,target=/root/.npm npm ci
+#15 0.696 npm warn config production Use `--omit=dev` instead.
+#15 2.087 npm warn EBADENGINE Unsupported engine {
+#15 2.087 npm warn EBADENGINE   package: '@isaacs/balanced-match@4.0.1',
+#15 2.087 npm warn EBADENGINE   required: { node: '20 || >=22' },
+#15 2.087 npm warn EBADENGINE   current: { node: 'v18.20.5', npm: '10.8.2' }
+#15 2.087 npm warn EBADENGINE }
+#15 2.087 npm warn EBADENGINE Unsupported engine {
+#15 2.087 npm warn EBADENGINE   package: '@isaacs/brace-expansion@5.0.0',
+#15 2.087 npm warn EBADENGINE   required: { node: '20 || >=22' },
+#15 2.087 npm warn EBADENGINE   current: { node: 'v18.20.5', npm: '10.8.2' }
+#15 2.087 npm warn EBADENGINE }
+#15 2.105 npm warn EBADENGINE Unsupported engine {
+#15 2.105 npm warn EBADENGINE   package: 'glob@13.0.0',
+#15 2.105 npm warn EBADENGINE   required: { node: '20 || >=22' },
+#15 2.105 npm warn EBADENGINE   current: { node: 'v18.20.5', npm: '10.8.2' }
+#15 2.105 npm warn EBADENGINE }
+#15 2.118 npm warn EBADENGINE Unsupported engine {
+#15 2.118 npm warn EBADENGINE   package: 'minimatch@10.1.1',
+#15 2.118 npm warn EBADENGINE   required: { node: '20 || >=22' },
+#15 2.118 npm warn EBADENGINE   current: { node: 'v18.20.5', npm: '10.8.2' }
+#15 2.118 npm warn EBADENGINE }
+#15 2.119 npm warn EBADENGINE Unsupported engine {
+#15 2.119 npm warn EBADENGINE   package: 'path-scurry@2.0.1',
+#15 2.119 npm warn EBADENGINE   required: { node: '20 || >=22' },
+#15 2.119 npm warn EBADENGINE   current: { node: 'v18.20.5', npm: '10.8.2' }
+#15 2.119 npm warn EBADENGINE }
+#15 2.119 npm warn EBADENGINE Unsupported engine {
+#15 2.119 npm warn EBADENGINE   package: 'lru-cache@11.2.4',
+#15 2.119 npm warn EBADENGINE   required: { node: '20 || >=22' },
+#15 2.119 npm warn EBADENGINE   current: { node: 'v18.20.5', npm: '10.8.2' }
+#15 2.119 npm warn EBADENGINE }
+#15 8.152 npm warn deprecated @esbuild-kit/esm-loader@2.6.5: Merged into tsx: https://tsx.is
+#15 8.185 npm warn deprecated @esbuild-kit/core-utils@3.3.2: Merged into tsx: https://tsx.is
+#15 16.60
+#15 16.60 added 434 packages, and audited 435 packages in 16s
+#15 16.60
+#15 16.60 67 packages are looking for funding
+#15 16.60   run `npm fund` for details
+#15 16.65
+#15 16.65 22 vulnerabilities (1 low, 10 moderate, 11 high)
+#15 16.65
+#15 16.65 To address issues that do not require attention, run:
+#15 16.65   npm audit fix
+#15 16.65
+#15 16.65 To address all issues (including breaking changes), run:
+#15 16.65   npm audit fix --force
+#15 16.65
+#15 16.65 Run `npm audit` for details.
+#15 DONE 16.8s
+#16 [stage-0 12/15] COPY . /app/.
+#16 DONE 0.4s
+#17 [stage-0 13/15] RUN --mount=type=cache,id=dg1dQC2VtQc-node_modules/cache,target=/app/node_modules/.cache npm run build
+#17 0.426 npm warn config production Use `--omit=dev` instead.
+#17 0.449
+#17 0.449 > rest-express@1.0.0 build
+#17 0.449 > vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist
+#17 0.449
+#17 0.717 [36mvite v5.4.19 [32mbuilding for production...[36m[39m
+#17 0.773 transforming...
+#17 1.109 Browserslist: browsers data (caniuse-lite) is 21 months old. Please run:
+#17 1.109   npx update-browserslist-db@latest
+#17 1.109   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+#17 9.027 [32m✓[39m 1864 modules transformed.
+#17 9.368 rendering chunks...
+#17 9.617 computing gzip size...
+#17 9.649 [2m../dist/public/[22m[32mindex.html                                    [39m[1m[2m  0.75 kB[22m[1m[22m[2m │ gzip:   0.45 kB[22m
+#17 9.650 [2m../dist/public/[22m[2massets/[22m[32meygpt_1752844613389-BVANJWDs.jpeg      [39m[1m[2m 12.31 kB[22m[1m[22m
+#17 9.650 [2m../dist/public/[22m[2massets/[22m[32mbook cover_1752980997909-DCR7KR6N.jpg  [39m[1m[2m113.58 kB[22m[1m[22m
+#17 9.650 [2m../dist/public/[22m[2massets/[22m[35mindex-BvoyQuC3.css                     [39m[1m[2m 91.40 kB[22m[1m[22m[2m │ gzip:  14.46 kB[22m
+#17 9.650 [2m../dist/public/[22m[2massets/[22m[36mindex-DT2qNQNj.js                      [39m[1m[2m  0.14 kB[22m[1m[22m[2m │ gzip:   0.14 kB[22m
+#17 9.650 [2m../dist/public/[22m[2massets/[22m[36muser-CkRI3mcZ.js                       [39m[1m[2m  0.37 kB[22m[1m[22m[2m │ gzip:   0.28 kB[22m
+#17 9.650 [2m../dist/public/[22m[2massets/[22m[36mcredit-card-CaZ-Pm5p.js                [39m[1m[2m  0.38 kB[22m[1m[22m[2m │ gzip:   0.29 kB[22m
+#17 9.650 [2m../dist/public/[22m[2massets/[22m[36mheart-ZoppI91H.js                      [39m[1m[2m  0.41 kB[22m[1m[22m[2m │ gzip:   0.31 kB[22m
+#17 9.650 [2m../dist/public/[22m[2massets/[22m[36mcheckbox-xTJSzhV0.js                   [39m[1m[2m  0.42 kB[22m[1m[22m[2m │ gzip:   0.31 kB[22m
+#17 9.650 [2m../dist/public/[22m[2massets/[22m[36mloading-spinner-Dm6ZsASb.js            [39m[1m[2m  0.49 kB[22m[1m[22m[2m │ gzip:   0.29 kB[22m
+#17 9.650 [2m../dist/public/[22m[2massets/[22m[36mrefresh-cw-Bj207Hue.js                 [39m[1m[2m  0.49 kB[22m[1m[22m[2m │ gzip:   0.32 kB[22m
+#17 9.650 [2m../dist/public/[22m[2massets/[22m[36mfile-text--DSDRezH.js                  [39m[1m[2m  0.50 kB[22m[1m[22m[2m │ gzip:   0.32 kB[22m
+#17 9.650 [2m../dist/public/[22m[2massets/[22m[36mtextarea-B6vgQ9mz.js                   [39m[1m[2m  0.60 kB[22m[1m[22m[2m │ gzip:   0.39 kB[22m
+#17 9.650 [2m../dist/public/[22m[2massets/[22m[36minput-fcHid7-z.js                      [39m[1m[2m  0.68 kB[22m[1m[22m[2m │ gzip:   0.42 kB[22m
+#17 9.650 [2m../dist/public/[22m[2massets/[22m[36mapi-C9FgKIsQ.js                        [39m[1m[2m  0.97 kB[22m[1m[22m[2m │ gzip:   0.31 kB[22m
+#17 9.650 [2m../dist/public/[22m[2massets/[22m[36museMutation-By-2cQCI.js                [39m[1m[2m  2.88 kB[22m[1m[22m[2m │ gzip:   1.22 kB[22m
+#17 9.650 [2m../dist/public/[22m[2massets/[22m[36mtabs-zZANbJ8o.js                       [39m[1m[2m  7.86 kB[22m[1m[22m[2m │ gzip:   3.05 kB[22m
+#17 9.650 [2m../dist/public/[22m[2massets/[22m[36mquote-generator-D60Vk4rg.js            [39m[1m[2m  8.49 kB[22m[1m[22m[2m │ gzip:   2.90 kB[22m
+#17 9.650 [2m../dist/public/[22m[2massets/[22m[36mcheckout-DXkhbWS8.js                   [39m[1m[2m  9.47 kB[22m[1m[22m[2m │ gzip:   1.82 kB[22m
+#17 9.650 [2m../dist/public/[22m[2massets/[22m[36mworkout-motivation-DWWxoDSG.js         [39m[1m[2m 23.94 kB[22m[1m[22m[2m │ gzip:   3.44 kB[22m
+#17 9.650 [2m../dist/public/[22m[2massets/[22m[36mcontact-dPuIW39l.js                    [39m[1m[2m 27.79 kB[22m[1m[22m[2m │ gzip:   4.31 kB[22m
+#17 9.650 [2m../dist/public/[22m[2massets/[22m[36mthe-grind-DPmkljhC.js                  [39m[1m[2m 32.78 kB[22m[1m[22m[2m │ gzip:   5.26 kB[22m
+#17 9.650 [2m../dist/public/[22m[2massets/[22m[36mclient-portal-vPLsM1bv.js              [39m[1m[2m 46.17 kB[22m[1m[22m[2m │ gzip:   6.45 kB[22m
+#17 9.650 [2m../dist/public/[22m[2massets/[22m[36mschedule-C3mPW9NB.js                   [39m[1m[2m105.96 kB[22m[1m[22m[2m │ gzip:  27.12 kB[22m
+#17 9.650 [2m../dist/public/[22m[2massets/[22m[36msignup-Dd_j77y_.js                     [39m[1m[2m156.39 kB[22m[1m[22m[2m │ gzip:  40.16 kB[22m
+#17 9.650 [2m../dist/public/[22m[2massets/[22m[36madmin-SH3Fv7tQ.js                      [39m[1m[2m325.43 kB[22m[1m[22m[2m │ gzip:  33.05 kB[22m
+#17 9.650 [2m../dist/public/[22m[2massets/[22m[36mindex-C1rirW-7.js                      [39m[1m[33m617.56 kB[39m[22m[2m │ gzip: 168.07 kB[22m
+#17 9.650 [33m
+#17 9.650 (!) Some chunks are larger than 500 kB after minification. Consider:
+#17 9.650 - Using dynamic import() to code-split the application
+#17 9.650 - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+#17 9.650 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+#17 9.651 [32m✓ built in 8.91s[39m
+#17 9.741
+#17 9.741   dist/index.js  47.4kb
+#17 9.741
+#17 9.741 ⚡ Done in 19ms
+#17 DONE 9.8s
+#18 [stage-0 14/15] RUN printf '\nPATH=/app/node_modules/.bin:$PATH' >> /root/.profile
+#18 DONE 0.3s
+#19 [stage-0 15/15] COPY . /app
+#19 DONE 0.2s
+#20 exporting to image
+#20 exporting layers
+#20 exporting layers 29.9s done
+#20 exporting manifest sha256:5241fbb47b774d0598eccd00b2041e01aa2b03628776c31747e79732df3c2c8f 0.0s done
+#20 exporting config sha256:0aba10a420ce4ad5ec70635d556fe7bfda19d98a6e15c5986dce809ac2532bdc 0.0s done
+#20 exporting attestation manifest sha256:a3befcfd4782647801d68cad57a92adf43587dbf8afa93e540780cb2e42a3d88 0.1s done
+#20 exporting manifest list sha256:252e4c366d49696fc1cc43b16c3b33781340db7e61cdd31ca5a074741680f2b3
+#20 exporting manifest list sha256:252e4c366d49696fc1cc43b16c3b33781340db7e61cdd31ca5a074741680f2b3 0.0s done
+#20 naming to docker.io/library/iron-dog-strength-irondogapp-1n02ro:latest done
+#20 unpacking to docker.io/library/iron-dog-strength-irondogapp-1n02ro:latest
+#20 unpacking to docker.io/library/iron-dog-strength-irondogapp-1n02ro:latest 8.7s done
+#20 DONE 38.7s
+[33m3 warnings found (use docker --debug to expand):
+[0m - SecretsUsedInArgOrEnv: Do not use ARG or ENV instructions for sensitive data (ENV "GITHUB_PERSONAL_ACCESS_TOKEN") (line 14)
+- UndefinedVar: Usage of undefined variable '$NIXPACKS_PATH' (line 24)
+- SecretsUsedInArgOrEnv: Do not use ARG or ENV instructions for sensitive data (ARG "GITHUB_PERSONAL_ACCESS_TOKEN") (line 13)
+=== Successfully Built! ===
+Run:
+docker run -it iron-dog-strength-irondogapp-1n02ro
+✅ Nixpacks build completed.
