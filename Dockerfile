@@ -34,6 +34,9 @@ RUN npm install -g npm@11 --no-audit --no-fund && \
 # Copy static public assets (images, audio, thumbnails, uploads)
 COPY --from=builder /app/client/public ./client/public
 
+# Media served at /videos comes from attached_assets
+COPY --from=builder /app/attached_assets ./attached_assets
+
 EXPOSE 5000
 
 CMD ["node", "dist/index.js"]
