@@ -1,13 +1,16 @@
 FROM node:20-alpine AS builder
 WORKDIR /app
 
-# Install ALL dependencies (including devDeps needed for the build)
+# Copy package files
 COPY package*.json ./
-RUN npm ci
+
+# Install ALL dependencies (including devDeps needed for build like vite, esbuild)
+# cache-bust: v2
+RUN npm cache clean --force && npm ci
 
 # Build frontend + server bundle
 COPY . .
-RUN npm run build
+RUN ./node_modules/.bin/vite build && ./node_modules/.bin/esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist
 
 # Production stage — lean image, no devDeps
 FROM node:20-alpine AS runner
@@ -17,7 +20,7 @@ ENV NODE_ENV=production
 # Required at runtime — set these in Dokploy environment variables:
 # DATABASE_URL, SESSION_SECRET, CLOUDFARE_ACCESS_KEY_ID, CLOUDFARE_SECRET_ACCESS_KEY
 
-# Copy only what's needed to run
+# Copy built output and install only production deps
 COPY --from=builder /app/dist ./dist
 COPY --from=builder /app/package*.json ./
 RUN npm ci --omit=dev
