@@ -1,0 +1,1 @@
+- [Dokploy Docker build quirks](dokploy-docker-build.md) — comments don't bust Docker layer cache; npm "Exit handler" bug on alpine → use node:20-slim.
