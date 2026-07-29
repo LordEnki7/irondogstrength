@@ -5,8 +5,8 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install ALL dependencies (including devDeps needed for build like vite, esbuild)
-# cache-bust: v2
-RUN npm cache clean --force && npm ci
+# The trailing check verifies vite actually installed — fails loudly otherwise
+RUN npm cache clean --force && npm ci && test -x node_modules/.bin/vite && echo "deps OK v3"
 
 # Build frontend + server bundle
 COPY . .
